@@ -1,0 +1,1530 @@
+{
+  "continents": [
+    {
+      "continent": "Africa",
+      "id": 1,
+      "countries": [
+        {
+          "country": "Algeria",
+          "flag": "🇩🇿",
+          "visited": false
+        },
+        {
+          "country": "Angola",
+          "flag": "🇦🇴",
+          "visited": false
+        },
+        {
+          "country": "Benin",
+          "flag": "🇧🇯",
+          "visited": false
+        },
+        {
+          "country": "Botswana",
+          "flag": "🇧🇼",
+          "visited": true
+        },
+        {
+          "country": "Burkina Faso",
+          "flag": "🇧🇫",
+          "visited": false
+        },
+        {
+          "country": "Burundi",
+          "flag": "🇧🇮",
+          "visited": false
+        },
+        {
+          "country": "Cameroon",
+          "flag": "🇨🇲",
+          "visited": false
+        },
+        {
+          "country": "Cape Verde",
+          "flag": "🇨🇻",
+          "visited": false
+        },
+        {
+          "country": "Central African Republic",
+          "flag": "🇨🇫",
+          "visited": false
+        },
+        {
+          "country": "Chad",
+          "flag": "🇹🇩",
+          "visited": false
+        },
+        {
+          "country": "Comoros",
+          "flag": "🇰🇲",
+          "visited": false
+        },
+        {
+          "country": "Democratic Republic of Congo",
+          "flag": "🇨🇩",
+          "visited": false
+        },
+        {
+          "country": "Djibouti",
+          "flag": "🇩🇯",
+          "visited": true
+        },
+        {
+          "country": "Egypt",
+          "flag": "🇪🇬",
+          "visited": false
+        },
+        {
+          "country": "Equatorial Guinea",
+          "flag": "🇬🇶",
+          "visited": false
+        },
+        {
+          "country": "Eritrea",
+          "flag": "🇪🇷",
+          "visited": true
+        },
+        {
+          "country": "Eswatini",
+          "flag": "🇸🇿",
+          "visited": false
+        },
+        {
+          "country": "Ethiopia",
+          "flag": "🇪🇹",
+          "visited": true
+        },
+        {
+          "country": "Gabon",
+          "flag": "🇬🇦",
+          "visited": false
+        },
+        {
+          "country": "Gambia",
+          "flag": "🇬🇲",
+          "visited": false
+        },
+        {
+          "country": "Ghana",
+          "flag": "🇬🇭",
+          "visited": false
+        },
+        {
+          "country": "Guinea",
+          "flag": "🇬🇳",
+          "visited": false
+        },
+        {
+          "country": "Guinea-Bissau",
+          "flag": "🇬🇼",
+          "visited": false
+        },
+        {
+          "country": "Ivory Coast",
+          "flag": "🇨🇮",
+          "visited": false
+        },
+        {
+          "country": "Kenya",
+          "flag": "🇰🇪",
+          "visited": true
+        },
+        {
+          "country": "Lesotho",
+          "flag": "🇱🇸",
+          "visited": false
+        },
+        {
+          "country": "Liberia",
+          "flag": "🇱🇷",
+          "visited": false
+        },
+        {
+          "country": "Libya",
+          "flag": "🇱🇾",
+          "visited": false
+        },
+        {
+          "country": "Madagascar",
+          "flag": "🇲🇬",
+          "visited": false
+        },
+        {
+          "country": "Malawi",
+          "flag": "🇲🇼",
+          "visited": true
+        },
+        {
+          "country": "Mali",
+          "flag": "🇲🇱",
+          "visited": false
+        },
+        {
+          "country": "Mauritania",
+          "flag": "🇲🇷",
+          "visited": false
+        },
+        {
+          "country": "Mauritius",
+          "flag": "🇲🇺",
+          "visited": false
+        },
+        {
+          "country": "Morocco",
+          "flag": "🇲🇦",
+          "visited": true
+        },
+        {
+          "country": "Mozambique",
+          "flag": "🇲🇿",
+          "visited": false
+        },
+        {
+          "country": "Namibia",
+          "flag": "🇷🇼",
+          "visited": true
+        },
+        {
+          "country": "Niger",
+          "flag": "🇳🇪",
+          "visited": false
+        },
+        {
+          "country": "Nigeria",
+          "flag": "🇳🇬",
+          "visited": false
+        },
+        {
+          "country": "Republic of the Congo",
+          "flag": "🇨🇬",
+          "visited": false
+        },
+        {
+          "country": "Rwanda",
+          "flag": "🇳🇦",
+          "visited": true
+        },
+        {
+          "country": "São Tomé and Príncipe",
+          "flag": "🇸🇹",
+          "visited": false
+        },
+        {
+          "country": "Senegal",
+          "flag": "🇸🇳",
+          "visited": false
+        },
+        {
+          "country": "Seychelles",
+          "flag": "🇸🇨",
+          "visited": false
+        },
+        {
+          "country": "Sierra Leone",
+          "flag": "🇸🇱",
+          "visited": false
+        },
+        {
+          "country": "Somalia",
+          "flag": "🇸🇴",
+          "visited": false
+        },
+        {
+          "country": "South Africa",
+          "flag": "🇿🇦",
+          "visited": true
+        },
+        {
+          "country": "South Sudan",
+          "flag": "🇸🇸",
+          "visited": false
+        },
+        {
+          "country": "Sudan",
+          "flag": "🇸🇩",
+          "visited": false
+        },
+        {
+          "country": "Tanzania",
+          "flag": "🇹🇿",
+          "visited": true
+        },
+        {
+          "country": "Togo",
+          "flag": "🇹🇬",
+          "visited": false
+        },
+        {
+          "country": "Tunisia",
+          "flag": "🇹🇳",
+          "visited": false
+        },
+        {
+          "country": "Uganda",
+          "flag": "🇺🇬",
+          "visited": true
+        },
+        {
+          "country": "Zambia",
+          "flag": "🇿🇲",
+          "visited": true
+        },
+        {
+          "country": "Zimbabwe",
+          "flag": "🇿🇼",
+          "visited": true
+        }
+      ]
+    },
+    {
+      "continent": "Central America",
+      "id": 3,
+      "countries": [
+        {
+          "country": "Antigua & Barbuda",
+          "flag": "🇦🇬",
+          "visited": false
+        },
+        {
+          "country": "Bahamas",
+          "flag": "🇧🇸",
+          "visited": false
+        },
+        {
+          "country": "Barbados",
+          "flag": "🇧🇧",
+          "visited": false
+        },
+        {
+          "country": "Belize",
+          "flag": "🇧🇿",
+          "visited": true
+        },
+        {
+          "country": "Costa Rica",
+          "flag": "🇨🇷",
+          "visited": true
+        },
+        {
+          "country": "Cuba",
+          "flag": "🇨🇺",
+          "visited": false
+        },
+        {
+          "country": "Dominica",
+          "flag": "🇩🇲",
+          "visited": false
+        },
+        {
+          "country": "Dominica Republica",
+          "flag": "🇩🇴",
+          "visited": false
+        },
+        {
+          "country": "El Salvador",
+          "flag": "🇸🇻",
+          "visited": true
+        },
+        {
+          "country": "Grenada",
+          "flag": "🇬🇩",
+          "visited": false
+        },
+        {
+          "country": "Guatemala",
+          "flag": "🇬🇹",
+          "visited": true
+        },
+        {
+          "country": "Haiti",
+          "flag": "🇭🇹",
+          "visited": false
+        },
+        {
+          "country": "Honduras",
+          "flag": "🇭🇳",
+          "visited": true
+        },
+        {
+          "country": "Jamaica",
+          "flag": "🇯🇲",
+          "visited": false
+        },
+        {
+          "country": "Nicaragua",
+          "flag": "🇳🇮",
+          "visited": true
+        },
+        {
+          "country": "Panama",
+          "flag": "🇵🇦",
+          "visited": true
+        },
+        {
+          "country": "Saint Kitts & Nevis",
+          "flag": "🇰🇳",
+          "visited": false
+        },
+        {
+          "country": "Saint Lucia",
+          "flag": "🇱🇨",
+          "visited": false
+        },
+        {
+          "country": "Saint Vincent & Grenadines",
+          "flag": "🇻🇨",
+          "visited": false
+        },
+        {
+          "country": "Trinidad & Tobago",
+          "flag": "🇹🇹",
+          "visited": false
+        }
+      ]
+    },
+    {
+      "continent": "Central Asia",
+      "id": 4,
+      "countries": [
+        {
+          "country": "Kazakhstan",
+          "flag": "🇰🇿",
+          "visited": false
+        },
+        {
+          "country": "Kyrgyzstan",
+          "flag": "🇰🇬",
+          "visited": false
+        },
+        {
+          "country": "Russia",
+          "flag": "🇷🇺",
+          "visited": true
+        },
+        {
+          "country": "Tajikistan",
+          "flag": "🇹🇯",
+          "visited": false
+        },
+        {
+          "country": "Turkmenistan",
+          "flag": "🇹🇲",
+          "visited": false
+        },
+        {
+          "country": "Uzbekistan",
+          "flag": "🇺🇿",
+          "visited": false
+        }
+      ]
+    },
+    {
+      "continent": "East & Southeast Asia",
+      "id": 5,
+      "countries": [
+        {
+          "country": "Brunei",
+          "flag": "🇧🇳",
+          "visited": false
+        },
+        {
+          "country": "Burma (Myanmar)",
+          "flag": "🇲🇲",
+          "visited": false
+        },
+        {
+          "country": "Cambodia",
+          "flag": "🇰🇭",
+          "visited": true
+        },
+        {
+          "country": "China",
+          "flag": "🇨🇳",
+          "visited": true
+        },
+        {
+          "country": "Indonesia",
+          "flag": "🇮🇩",
+          "visited": true
+        },
+        {
+          "country": "Japan",
+          "flag": "🇯🇵",
+          "visited": true
+        },
+        {
+          "country": "Laos",
+          "flag": "🇱🇦",
+          "visited": true
+        },
+        {
+          "country": "Malaysia",
+          "flag": "🇲🇾",
+          "visited": true
+        },
+        {
+          "country": "Mongolia",
+          "flag": "🇲🇳",
+          "visited": true
+        },
+        {
+          "country": "North Korea",
+          "flag": "🇰🇵",
+          "visited": false
+        },
+        {
+          "country": "Philippines",
+          "flag": "🇵🇭",
+          "visited": true
+        },
+        {
+          "country": "Singapore",
+          "flag": "🇸🇬",
+          "visited": true
+        },
+        {
+          "country": "South Korea",
+          "flag": "🇰🇷",
+          "visited": true
+        },
+        {
+          "country": "Thailand",
+          "flag": "🇹🇭",
+          "visited": true
+        },
+        {
+          "country": "Timor-Leste",
+          "flag": "🇹🇱",
+          "visited": false
+        },
+        {
+          "country": "Vietnam",
+          "flag": "🇻🇳",
+          "visited": true
+        }
+      ]
+    },
+    {
+      "continent": "Europe",
+      "id": 6,
+      "countries": [
+        {
+          "country": "Albania",
+          "flag": "🇦🇱",
+          "visited": true
+        },
+        {
+          "country": "Andorra",
+          "flag": "🇦🇩",
+          "visited": false
+        },
+        {
+          "country": "Austria",
+          "flag": "🇦🇹",
+          "visited": true
+        },
+        {
+          "country": "Belarus",
+          "flag": "🇧🇾",
+          "visited": true
+        },
+        {
+          "country": "Belgium",
+          "flag": "🇧🇪",
+          "visited": true
+        },
+        {
+          "country": "Bosnia & Herzegovina",
+          "flag": "🇧🇦",
+          "visited": true
+        },
+        {
+          "country": "Bulgaria",
+          "flag": "🇧🇬",
+          "visited": true
+        },
+        {
+          "country": "Croatia",
+          "flag": "🇭🇷",
+          "visited": true
+        },
+        {
+          "country": "Cyprus",
+          "flag": "🇨🇾",
+          "visited": true
+        },
+        {
+          "country": "Czech Republic",
+          "flag": "🇨🇿",
+          "visited": true
+        },
+        {
+          "country": "Denmark",
+          "flag": "🇩🇰",
+          "visited": true
+        },
+        {
+          "country": "Estonia",
+          "flag": "🇪🇪",
+          "visited": false
+        },
+        {
+          "country": "Finland",
+          "flag": "🇫🇮",
+          "visited": true
+        },
+        {
+          "country": "France",
+          "flag": "🇫🇷",
+          "visited": true
+        },
+        {
+          "country": "Germany",
+          "flag": "🇩🇪",
+          "visited": true
+        },
+        {
+          "country": "Greece",
+          "flag": "🇬🇷",
+          "visited": true
+        },
+        {
+          "country": "Vatican",
+          "flag": "🇻🇦",
+          "visited": true
+        },
+        {
+          "country": "Hungary",
+          "flag": "🇭🇺",
+          "visited": true
+        },
+        {
+          "country": "Iceland",
+          "flag": "🇮🇸",
+          "visited": true
+        },
+        {
+          "country": "Ireland",
+          "flag": "🇮🇪",
+          "visited": true
+        },
+        {
+          "country": "Italy",
+          "flag": "🇮🇹",
+          "visited": true
+        },
+        {
+          "country": "Latvia",
+          "flag": "🇱🇻",
+          "visited": true
+        },
+        {
+          "country": "Liechtenstein",
+          "flag": "🇱🇮",
+          "visited": false
+        },
+        {
+          "country": "Lithuania",
+          "flag": "🇱🇹",
+          "visited": true
+        },
+        {
+          "country": "Luxembourg",
+          "flag": "🇱🇺",
+          "visited": true
+        },
+        {
+          "country": "Malta",
+          "flag": "🇲🇹",
+          "visited": true
+        },
+        {
+          "country": "Moldavia",
+          "flag": "🇲🇩",
+          "visited": true
+        },
+        {
+          "country": "Monaco",
+          "flag": "🇲🇨",
+          "visited": true
+        },
+        {
+          "country": "Montenegro",
+          "flag": "🇲🇪",
+          "visited": true
+        },
+        {
+          "country": "Netherlands",
+          "flag": "🇳🇱",
+          "visited": true
+        },
+        {
+          "country": "North Macedonia",
+          "flag": "🇲🇰",
+          "visited": true
+        },
+        {
+          "country": "Norway",
+          "flag": "🇳🇴",
+          "visited": true
+        },
+        {
+          "country": "Poland",
+          "flag": "🇵🇱",
+          "visited": true
+        },
+        {
+          "country": "Portugal",
+          "flag": "🇵🇹",
+          "visited": false
+        },
+        {
+          "country": "Romania",
+          "flag": "🇷🇴",
+          "visited": true
+        },
+        {
+          "country": "San Marino",
+          "flag": "🇸🇲",
+          "visited": false
+        },
+        {
+          "country": "Serbia",
+          "flag": "🇷🇸",
+          "visited": true
+        },
+        {
+          "country": "Slovakia",
+          "flag": "🇸🇰",
+          "visited": true
+        },
+        {
+          "country": "Slovenia",
+          "flag": "🇸🇮",
+          "visited": true
+        },
+        {
+          "country": "Spain",
+          "flag": "🇪🇸",
+          "visited": true
+        },
+        {
+          "country": "Sweden",
+          "flag": "🇸🇪",
+          "visited": true
+        },
+        {
+          "country": "Switzerland",
+          "flag": "🇨🇭",
+          "visited": true
+        },
+        {
+          "country": "Ukraine",
+          "flag": "🇺🇦",
+          "visited": true
+        },
+        {
+          "country": "United Kingdom",
+          "flag": "🇬🇧",
+          "visited": true
+        }
+      ]
+    },
+    {
+      "continent": "Middle East",
+      "id": 7,
+      "countries": [
+        {
+          "country": "Armenia",
+          "flag": "🇦🇲",
+          "visited": false
+        },
+        {
+          "country": "Azerbaijan",
+          "flag": "🇦🇿",
+          "visited": false
+        },
+        {
+          "country": "Bahrain",
+          "flag": "🇧🇭",
+          "visited": false
+        },
+        {
+          "country": "Georgia",
+          "flag": "🇬🇪",
+          "visited": false
+        },
+        {
+          "country": "Iran",
+          "flag": "🇮🇷",
+          "visited": false
+        },
+        {
+          "country": "Iraq",
+          "flag": "🇮🇶",
+          "visited": false
+        },
+        {
+          "country": "Israel",
+          "flag": "🇮🇱",
+          "visited": true
+        },
+        {
+          "country": "Jordan",
+          "flag": "🇯🇴",
+          "visited": false
+        },
+        {
+          "country": "Kuwait",
+          "flag": "🇰🇼",
+          "visited": false
+        },
+        {
+          "country": "Lebanon",
+          "flag": "🇱🇧",
+          "visited": false
+        },
+        {
+          "country": "Oman",
+          "flag": "🇴🇲",
+          "visited": true
+        },
+        {
+          "country": "Palestine",
+          "flag": "🇵🇸",
+          "visited": false
+        },
+        {
+          "country": "Qatar",
+          "flag": "🇶🇦",
+          "visited": true
+        },
+        {
+          "country": "Saudi Arabia",
+          "flag": "🇸🇦",
+          "visited": true
+        },
+        {
+          "country": "Syria",
+          "flag": "🇸🇾",
+          "visited": false
+        },
+        {
+          "country": "Turkey",
+          "flag": "🇹🇷",
+          "visited": false
+        },
+        {
+          "country": "United Arab Emirates",
+          "flag": "🇦🇪",
+          "visited": true
+        },
+        {
+          "country": "Yemen",
+          "flag": "🇾🇪",
+          "visited": false
+        }
+      ]
+    },
+    {
+      "continent": "North America",
+      "id": 8,
+      "countries": [
+        {
+          "country": "Canada",
+          "flag": "🇨🇦",
+          "visited": true
+        },
+        {
+          "country": "Mexico",
+          "flag": "🇲🇽",
+          "visited": true
+        },
+        {
+          "country": "United States",
+          "flag": "🇺🇸",
+          "visited": true
+        }
+      ]
+    },
+    {
+      "continent": "Oceania",
+      "id": 2,
+      "countries": [
+        {
+          "country": "Australia",
+          "flag": "🇦🇺",
+          "visited": false
+        },
+        {
+          "country": "Fiji",
+          "flag": "🇫🇯",
+          "visited": false
+        },
+        {
+          "country": "Kiribati",
+          "flag": "🇰🇮",
+          "visited": false
+        },
+        {
+          "country": "Marshall Islands",
+          "flag": "🇲🇭",
+          "visited": false
+        },
+        {
+          "country": "Micronesia",
+          "flag": "🇫🇲",
+          "visited": false
+        },
+        {
+          "country": "Nauru",
+          "flag": "🇳🇷",
+          "visited": false
+        },
+        {
+          "country": "New Zealand",
+          "flag": "🇳🇿",
+          "visited": false
+        },
+        {
+          "country": "Palau",
+          "flag": "🇵🇼🇳🇮",
+          "visited": false
+        },
+        {
+          "country": "Papua New Guinea",
+          "flag": "🇵🇬",
+          "visited": false
+        },
+        {
+          "country": "Samoa",
+          "flag": "🇼🇸",
+          "visited": false
+        },
+        {
+          "country": "Solomon Islands",
+          "flag": "🇸🇧",
+          "visited": false
+        },
+        {
+          "country": "Tonga",
+          "flag": "🇹🇴",
+          "visited": false
+        },
+        {
+          "country": "Tuvalu",
+          "flag": "🇹🇻",
+          "visited": false
+        },
+        {
+          "country": "Vanuatu",
+          "flag": "🇻🇺",
+          "visited": false
+        }
+      ]
+    },
+    {
+      "continent": "South America",
+      "id": 9,
+      "countries": [
+        {
+          "country": "Argentina",
+          "flag": "🇦🇷",
+          "visited": false
+        },
+        {
+          "country": "Bolivia",
+          "flag": "🇧🇴",
+          "visited": false
+        },
+        {
+          "country": "Brazil",
+          "flag": "🇧🇷",
+          "visited": false
+        },
+        {
+          "country": "Chile",
+          "flag": "🇨🇱",
+          "visited": false
+        },
+        {
+          "country": "Colombia",
+          "flag": "🇨🇴",
+          "visited": true
+        },
+        {
+          "country": "Ecuador",
+          "flag": "🇪🇨",
+          "visited": false
+        },
+        {
+          "country": "Guyana",
+          "flag": "🇬🇾",
+          "visited": false
+        },
+        {
+          "country": "Paraguay",
+          "flag": "🇵🇾",
+          "visited": false
+        },
+        {
+          "country": "Peru",
+          "flag": "🇵🇪",
+          "visited": false
+        },
+        {
+          "country": "Suriname",
+          "flag": "🇸🇷",
+          "visited": false
+        },
+        {
+          "country": "Uruguay",
+          "flag": "🇺🇾",
+          "visited": false
+        },
+        {
+          "country": "Venezuela",
+          "flag": "🇻🇪",
+          "visited": false
+        }
+      ]
+    },
+    {
+      "continent": "South Asia",
+      "id": 10,
+      "countries": [
+        {
+          "country": "Afghanistan",
+          "flag": "🇦🇷",
+          "visited": false
+        },
+        {
+          "country": "Bangladesh",
+          "flag": "🇧🇴",
+          "visited": true
+        },
+        {
+          "country": "Bhutan",
+          "flag": "🇧🇷",
+          "visited": true
+        },
+        {
+          "country": "India",
+          "flag": "🇨🇱",
+          "visited": true
+        },
+        {
+          "country": "Maldives",
+          "flag": "🇨🇴",
+          "visited": true
+        },
+        {
+          "country": "Nepal",
+          "flag": "🇪🇨",
+          "visited": true
+        },
+        {
+          "country": "Pakistan",
+          "flag": "🇬🇾",
+          "visited": false
+        },
+        {
+          "country": "Sri Lanka",
+          "flag": "🇵🇾",
+          "visited": true
+        }
+      ]
+    }
+  ],
+  "adventures": [
+    {
+      "id": "Morocco_2012-05-01",
+      "name": "Morocco",
+      "continent": ["Africa"],
+      "startDate": "2012-05-01",
+      "endDate": "2012-05-06",
+      "totalDays": 6,
+      "description": "This trip was a birthday present to my father where we traveled to Morocco to spend some night out in the Sahara dessert. This had always been a dream of his and with some help from his colleagues I was able to book this trip for us to experience together.",
+      "images": [
+        "/images/morocco_2012_1.JPG",
+        "/images/morocco_2012_2.JPG",
+        "/images/morocco_2012_3.JPG",
+        "/images/morocco_2012_4.JPG",
+        "/images/morocco_2012_5.JPG"
+      ],
+      "countries": ["Algeria", "Morocco"]
+    },
+    {
+      "id": "Scotland-Ireland_2012-07-08",
+      "name": "Scotland-Ireland",
+      "continent": ["Europe"],
+      "startDate": "2012-07-08",
+      "endDate": "2012-07-31",
+      "totalDays": 24,
+      "description": "On this European journey we will visit the traditional Highland Games, search for the Loch Ness monster, taste whisky at the smallest distillery Edradour in Scotland and visit the historic Edinburgh Castle. The journey will continue to Belfast, Ireland the country where you will experience beautiful scenery, live music, city life, beer and more whisky. Apart from Belfast we will also visit Galway and finish the trip in Dublin.",
+      "images": [
+        "/images/scotland-ireland_2012_1.JPG",
+        "/images/scotland-ireland_2012_2.JPG",
+        "/images/scotland-ireland_2012_3.JPG",
+        "/images/scotland-ireland_2012_4.JPG",
+        "/images/scotland-ireland_2012_5.JPG"
+      ],
+      "countries": ["Denmark", "Ireland", "United Kingdom"]
+    },
+    {
+      "id": "Oman_2012-12-26",
+      "name": "Oman",
+      "continent": ["Middle East"],
+      "startDate": "2012-12-26",
+      "endDate": "2013-01-06",
+      "totalDays": 12,
+      "description": "This was a trip I did together with my mother in Oman over New Years 2012/2013.",
+      "images": [
+        "/images/oman_2012_1.JPG",
+        "/images/oman_2012_2.JPG",
+        "/images/oman_2012_3.JPG",
+        "/images/oman_2012_4.JPG"
+      ],
+      "countries": ["Oman"]
+    },
+    {
+      "id": "Mountain_Gorillas_2013",
+      "name": "Mountain Gorillas",
+      "continent": ["Africa"],
+      "startDate": "2013-07-07",
+      "endDate": "2013-07-24",
+      "totalDays": 18,
+      "description": "This trip started in the capital of Rwanda Kigali, where we visited the historical memorial sites of the 1994 genocide. The journey continued to visit the Golden monkeys and the majestic Mountain Gorillas. \n\nThe adventure continued with safari in Queen Elizabeth Park in Uganda, a stop by the Equator, some sightseeing in the capital Kampala and some relaxing and fun time in Jinja where we did some river rafting!",
+      "images": [
+        "/images/mountain_gorilla_2013_1.JPG",
+        "/images/mountain_gorilla_2013_2.JPG",
+        "/images/mountain_gorilla_2013_3.JPG",
+        "/images/mountain_gorilla_2013_4.JPG",
+        "/images/mountain_gorilla_2013_5.JPG"
+      ],
+      "countries": ["Rwanda", "Uganda"]
+    },
+    {
+      "id": "Cambridge_2013-08-31",
+      "name": "Cambridge",
+      "continent": ["Europe"],
+      "startDate": "2013-08-31",
+      "endDate": "2013-10-29",
+      "totalDays": 60,
+      "description": "This adventure was a two months visit to the historical city Cambridge where I studied English att LSI Cambridge. These two months were spent studying a lot and making some new friends from all over the world and exchanging our different cultures and food traditions by having many food parties.",
+      "images": [
+        "/images/cambridge_2013_1.JPG",
+        "/images/cambridge_2013_2.JPG",
+        "/images/cambridge_2013_3.JPG",
+        "/images/cambridge_2013_4.JPG"
+      ],
+      "countries": ["United Kingdom"]
+    },
+    {
+      "id": "Paris_2013-10-18",
+      "name": "Paris",
+      "continent": ["Europe"],
+      "startDate": "2013-10-18",
+      "endDate": "2013-10-20",
+      "totalDays": 3,
+      "description": "During my two months stay in Cambridge the school offered a trip to Paris for a bargain. Because my birthday was coming up and my parents new about my love for travels and adventures I received this trip as an early birthday present. It was an amazing trip where we managed to visit all the typical cites during this short amount of time and made a lot of new memories that I will cherish forever.",
+      "images": [
+        "/images/paris_2013_1.JPG",
+        "/images/paris_2013_2.JPG",
+        "/images/paris_2013_3.JPG",
+        "/images/paris_2013_4.JPG"
+      ],
+      "countries": ["France"]
+    },
+    {
+      "id": "South_Africa-Zambia_2013",
+      "name": "South Africa-Zambia",
+      "continent": ["Africa"],
+      "startDate": "2013-11-06",
+      "endDate": "2013-12-10",
+      "totalDays": 35,
+      "description": "This was an amazing one month adventure traveling from South Africa to Zambia.",
+      "images": [
+        "/images/south_africa-zambia_2013_1.JPG",
+        "/images/south_africa-zambia_2013_2.JPG",
+        "/images/south_africa-zambia_2013_3.JPG",
+        "/images/south_africa-zambia_2013_4.JPG",
+        "/images/south_africa-zambia_2013_5.JPG"
+      ],
+      "countries": [
+        "Botswana",
+        "Malawi",
+        "Namibia",
+        "South Africa",
+        "Zambia",
+        "Zimbabwe"
+      ]
+    },
+    {
+      "id": "Eastern_Europe_2014-06-12",
+      "name": "Eastern Europe",
+      "continent": ["Europe"],
+      "startDate": "2014-06-12",
+      "endDate": "2014-07-03",
+      "totalDays": 22,
+      "description": "On this European journey we traveled all the way from Sweden to Croatia.",
+      "images": [
+        "/images/eastern_europe_2014_1.JPG",
+        "/images/eastern_europe_2014_2.JPG",
+        "/images/eastern_europe_2014_3.JPG",
+        "/images/eastern_europe_2014_4.JPG",
+        "/images/eastern_europe_2014_5.JPG"
+      ],
+      "countries": [
+        "Albania",
+        "Belarus",
+        "Bulgaria",
+        "Croatia",
+        "Latvia",
+        "Lithuania",
+        "Moldavia",
+        "Montenegro",
+        "North Macedonia",
+        "Sweden",
+        "Ukraine"
+      ]
+    },
+    {
+      "id": "New_York_2014-08-25",
+      "name": "New York",
+      "continent": ["North America"],
+      "startDate": "2014-08-25",
+      "endDate": "2014-09-01",
+      "totalDays": 8,
+      "description": "An awesome one week trip to New York with my Best friend. We combined this trip with visits to a lot of famous sites and did some shopping as well.",
+      "images": [
+        "/images/new_york_2014_1.JPG",
+        "/images/new_york_2014_2.JPG",
+        "/images/new_york_2014_3.JPG",
+        "/images/new_york_2014_4.JPG",
+        "/images/new_york_2014_5.JPG"
+      ],
+      "countries": ["United States"]
+    },
+    {
+      "id": "Kenya-South_Africa_2015-01-11",
+      "name": "Kenya-South Africa",
+      "continent": ["Africa"],
+      "startDate": "2015-01-11",
+      "endDate": "2015-03-08",
+      "totalDays": 57,
+      "description": "This was an amazing adventure traveling from Kenya all the way to South Africa for two months.",
+      "images": [
+        "/images/kenya-south_africa_2015_1.JPG",
+        "/images/kenya-south_africa_2015_2.JPG",
+        "/images/kenya-south_africa_2015_3.JPG",
+        "/images/kenya-south_africa_2015_4.JPG",
+        "/images/kenya-south_africa_2015_5.JPG"
+      ],
+      "countries": [
+        "Botswana",
+        "Kenya",
+        "Malawi",
+        "Namibia",
+        "South Africa",
+        "Tanzania",
+        "Zambia",
+        "Zimbabwe"
+      ]
+    },
+    {
+      "id": "Interrail_Europe_2015-06-18",
+      "name": "Interrail Europe",
+      "continent": ["Europe"],
+      "startDate": "2015-06-18",
+      "endDate": "2015-07-16",
+      "totalDays": 29,
+      "description": "This was an intense but great adventure travelling through Europe by train and other local vehicles for one month with my best friend.",
+      "images": [
+        "/images/interrail_europe_2015_1.JPG",
+        "/images/interrail_europe_2015_2.JPG",
+        "/images/interrail_europe_2015_3.JPG",
+        "/images/interrail_europe_2015_4.JPG",
+        "/images/interrail_europe_2015_5.JPG"
+      ],
+      "countries": [
+        "Austria",
+        "Belgium",
+        "Croatia",
+        "Czech Republic",
+        "Denmark",
+        "France",
+        "Germany",
+        "Hungary",
+        "Italy",
+        "Monaco",
+        "Netherlands",
+        "Poland",
+        "Serbia",
+        "Slovakia",
+        "Slovenia",
+        "Spain",
+        "Switzerland"
+      ]
+    },
+    {
+      "id": "Iceland-Faroe_Islands_2016-07-01",
+      "name": "Iceland-Faroe Islands",
+      "continent": ["Europe"],
+      "startDate": "2016-07-01",
+      "endDate": "2016-07-17",
+      "totalDays": 17,
+      "description": "An adventure filled with Poppins, amazing scenery and a lot of new memories!",
+      "images": [
+        "/images/iceland-faroe_islands_2016_1.JPG",
+        "/images/iceland-faroe_islands_2016_2.JPG",
+        "/images/iceland-faroe_islands_2016_3.JPG",
+        "/images/iceland-faroe_islands_2016_4.JPG",
+        "/images/iceland-faroe_islands_2016_5.JPG"
+      ],
+      "countries": ["Denmark", "Iceland"]
+    },
+    {
+      "id": "Kebnekaise_2016-07-29",
+      "name": "Kebnekaise",
+      "continent": ["Europe"],
+      "startDate": "2016-07-29",
+      "endDate": "2016-08-06",
+      "totalDays": 9,
+      "description": "For my first hiking adventure I thought it was a good idea to climb the highest mountain in Sweden Kebnekaise. The Coffee Valley was the worst part that I did not prepare for, but even so I still got to the top of the mountain where there was a snow storm going on and I could barely see my own hand infront of me.",
+      "images": ["/images/kebnekaise_2016_1.JPG"],
+      "countries": ["Sweden"]
+    },
+    {
+      "id": "Hiking_in_SriLanka_2016-12-19",
+      "name": "Hiking in Sri Lanka",
+      "continent": ["South Asia"],
+      "startDate": "2016-12-19",
+      "endDate": "2017-01-04",
+      "totalDays": 17,
+      "description": "On this European journey we will visit the traditional Highland Games, search for the Loch Ness monster, taste whisky at the smallest distillery Edradour in Scotland and visit the historic Edinburgh Castle. The journey will continue to Belfast, Ireland the country where you will experience beautiful scenery, live music, city life, beer and more whisky. Apart from Belfast we will also visit Galway and finish the trip in Dublin.",
+      "images": ["/images/hiking_in_sri_lanka_2016_1.JPG"],
+      "countries": ["Sri Lanka"]
+    },
+    {
+      "id": "Trans-Siberian_Railway_2017-06-21",
+      "name": "Trans-Siberian Railway",
+      "continent": ["Central Asia", "East & Southeast Asia"],
+      "startDate": "2017-06-21",
+      "endDate": "2017-07-26",
+      "totalDays": 36,
+      "description": "On this European journey we will visit the traditional Highland Games, search for the Loch Ness monster, taste whisky at the smallest distillery Edradour in Scotland and visit the historic Edinburgh Castle. The journey will continue to Belfast, Ireland the country where you will experience beautiful scenery, live music, city life, beer and more whisky. Apart from Belfast we will also visit Galway and finish the trip in Dublin.",
+      "images": ["/images/trans-siberian_railway_2017_1.JPG"],
+      "countries": ["Russia", "China", "Japan", "Mongolia", "South Korea"]
+    },
+    {
+      "id": "Backpacking_in_England_2017-07-28",
+      "name": "Backpacking in England",
+      "continent": ["Europe"],
+      "startDate": "2017-07-28",
+      "endDate": "2017-08-20",
+      "totalDays": 24,
+      "description": "On this European journey we will visit the traditional Highland Games, search for the Loch Ness monster, taste whisky at the smallest distillery Edradour in Scotland and visit the historic Edinburgh Castle. The journey will continue to Belfast, Ireland the country where you will experience beautiful scenery, live music, city life, beer and more whisky. Apart from Belfast we will also visit Galway and finish the trip in Dublin.",
+      "images": ["/images/backpacking_in_england_2017_1.JPG"],
+      "countries": ["United Kingdom"]
+    },
+    {
+      "id": "Christmas_&_New_Year_in_Colombia_2017-12-20",
+      "name": "Christmas & New Year in Colombia",
+      "continent": ["South America"],
+      "startDate": "2017-12-20",
+      "endDate": "2018-01-07",
+      "totalDays": 19,
+      "description": "On this European journey we will visit the traditional Highland Games, search for the Loch Ness monster, taste whisky at the smallest distillery Edradour in Scotland and visit the historic Edinburgh Castle. The journey will continue to Belfast, Ireland the country where you will experience beautiful scenery, live music, city life, beer and more whisky. Apart from Belfast we will also visit Galway and finish the trip in Dublin.",
+      "images": ["/images/christmas_&_new_year_in_colombia_2017_1.JPG"],
+      "countries": ["Colombia"]
+    },
+    {
+      "id": "Adventure_around_Himalaya_2018",
+      "name": "Adventure around Himalaya",
+      "continent": ["South Asia"],
+      "startDate": "2018-10-04",
+      "endDate": "2018-10-20",
+      "totalDays": 17,
+      "description": "On this European journey we will visit the traditional Highland Games, search for the Loch Ness monster, taste whisky at the smallest distillery Edradour in Scotland and visit the historic Edinburgh Castle. The journey will continue to Belfast, Ireland the country where you will experience beautiful scenery, live music, city life, beer and more whisky. Apart from Belfast we will also visit Galway and finish the trip in Dublin.",
+      "images": ["/images/adventure_around_himalaya_2018_1.JPG"],
+      "countries": ["Nepal", "Bhutan", "India", "Bangladesh"]
+    },
+    {
+      "id": "Hiking_in_Nepal_2018-11-07",
+      "name": "Hiking in Nepal",
+      "continent": ["South Asia"],
+      "startDate": "2018-11-07",
+      "endDate": "2018-11-18",
+      "totalDays": 12,
+      "description": "On this European journey we will visit the traditional Highland Games, search for the Loch Ness monster, taste whisky at the smallest distillery Edradour in Scotland and visit the historic Edinburgh Castle. The journey will continue to Belfast, Ireland the country where you will experience beautiful scenery, live music, city life, beer and more whisky. Apart from Belfast we will also visit Galway and finish the trip in Dublin.",
+      "images": ["/images/hiking_in_nepal_2018_1.JPG"],
+      "countries": ["Nepal"]
+    },
+    {
+      "id": "Sri_Lanka-Maldives_2018-12-27",
+      "name": "Sri Lanka-Maldives",
+      "continent": ["South Asia"],
+      "startDate": "2018-12-27",
+      "endDate": "2019-01-12",
+      "totalDays": 17,
+      "description": "On this European journey we will visit the traditional Highland Games, search for the Loch Ness monster, taste whisky at the smallest distillery Edradour in Scotland and visit the historic Edinburgh Castle. The journey will continue to Belfast, Ireland the country where you will experience beautiful scenery, live music, city life, beer and more whisky. Apart from Belfast we will also visit Galway and finish the trip in Dublin.",
+      "images": ["/images/sri_lanka-maldives_2018_1.JPG"],
+      "countries": ["Sri Lanka", "Maldives"]
+    },
+    {
+      "id": "Malta_2019-04-27",
+      "name": "Malta",
+      "continent": ["Europe"],
+      "startDate": "2019-04-27",
+      "endDate": "2019-05-02",
+      "totalDays": 6,
+      "description": "On this European journey we will visit the traditional Highland Games, search for the Loch Ness monster, taste whisky at the smallest distillery Edradour in Scotland and visit the historic Edinburgh Castle. The journey will continue to Belfast, Ireland the country where you will experience beautiful scenery, live music, city life, beer and more whisky. Apart from Belfast we will also visit Galway and finish the trip in Dublin.",
+      "images": ["/images/malta_2019_1.JPG"],
+      "countries": ["Malta"]
+    },
+    {
+      "id": "Hiking_in_Norway_2019-06-28",
+      "name": "Hiking in Norway",
+      "continent": ["Europe"],
+      "startDate": "2019-06-28",
+      "endDate": "2019-07-07",
+      "totalDays": 10,
+      "description": "On this European journey we will visit the traditional Highland Games, search for the Loch Ness monster, taste whisky at the smallest distillery Edradour in Scotland and visit the historic Edinburgh Castle. The journey will continue to Belfast, Ireland the country where you will experience beautiful scenery, live music, city life, beer and more whisky. Apart from Belfast we will also visit Galway and finish the trip in Dublin.",
+      "images": ["/images/hiking_in_norway_2019_1.JPG"],
+      "countries": ["Norway"]
+    },
+    {
+      "id": "Backpacking_in_South_East_Asia_2019-10-18",
+      "name": "Backpacking in South East Asia",
+      "continent": ["East & Southeast Asia", "Middle East"],
+      "startDate": "2019-10-18",
+      "endDate": "2019-11-10",
+      "totalDays": 24,
+      "description": "On this European journey we will visit the traditional Highland Games, search for the Loch Ness monster, taste whisky at the smallest distillery Edradour in Scotland and visit the historic Edinburgh Castle. The journey will continue to Belfast, Ireland the country where you will experience beautiful scenery, live music, city life, beer and more whisky. Apart from Belfast we will also visit Galway and finish the trip in Dublin.",
+      "images": ["/images/backpacking_in_south_east_asia_2019_1.JPG"],
+      "countries": ["Indonesia", "Philippines", "Singapore", "Qatar"]
+    },
+    {
+      "id": "Christmas_in_Israel_2019-12-22",
+      "name": "Christmas in Israel",
+      "continent": ["Middle East"],
+      "startDate": "2019-12-22",
+      "endDate": "2019-12-29",
+      "totalDays": 8,
+      "description": "On this European journey we will visit the traditional Highland Games, search for the Loch Ness monster, taste whisky at the smallest distillery Edradour in Scotland and visit the historic Edinburgh Castle. The journey will continue to Belfast, Ireland the country where you will experience beautiful scenery, live music, city life, beer and more whisky. Apart from Belfast we will also visit Galway and finish the trip in Dublin.",
+      "images": ["/images/christmas_in_israel_2019_1.JPG"],
+      "countries": ["Israel"]
+    },
+    {
+      "id": "Kenya-Eritrea_2020-01-18",
+      "name": "Kenya-Eritrea",
+      "continent": ["Africa"],
+      "startDate": "2020-01-18",
+      "endDate": "2020-02-18",
+      "totalDays": 32,
+      "description": "On this European journey we will visit the traditional Highland Games, search for the Loch Ness monster, taste whisky at the smallest distillery Edradour in Scotland and visit the historic Edinburgh Castle. The journey will continue to Belfast, Ireland the country where you will experience beautiful scenery, live music, city life, beer and more whisky. Apart from Belfast we will also visit Galway and finish the trip in Dublin.",
+      "images": [
+        "/images/kenya-eritrea_2020_1.JPG",
+        "/images/kenya-eritrea_2020_2.JPG"
+      ],
+      "countries": ["Kenya", "Ethiopia", "Djibouti", "Eritrea"]
+    },
+    {
+      "id": "Colour_festival_in_India_2020-03-1",
+      "name": "Colour festival in India",
+      "continent": ["Middle East", "South Asia"],
+      "startDate": "2020-03-01",
+      "endDate": "2020-03-19",
+      "totalDays": 19,
+      "description": "Traditional color festival in India!",
+      "images": ["/images/colour_festival_in_india_2020_1.JPG"],
+      "countries": ["United Arab Emirates", "India"]
+    },
+    {
+      "id": "Road_trip_in_south_Sweden_2021-06-10",
+      "name": "Road trip in south Sweden",
+      "continent": ["Europe"],
+      "startDate": "2021-06-10",
+      "endDate": "2021-06-24",
+      "totalDays": 15,
+      "description": "Road Trip!",
+      "images": ["/images/road_trip_in_south_sweden_2021_1.JPG"],
+      "countries": ["Sweden"]
+    },
+    {
+      "id": "Saudi_Arabia_2021-11-13",
+      "name": "Saudi Arabia",
+      "continent": ["Middle East"],
+      "startDate": "2021-11-13",
+      "endDate": "2021-11-28",
+      "totalDays": 16,
+      "description": "Adventure around different places in Saudi Arabia.",
+      "images": ["/images/saudiarabia_2021_1.JPG"],
+      "countries": ["Saudi Arabia"]
+    },
+    {
+      "id": "Sri_Lanka-Maldives_2021-12-26",
+      "name": "Sri Lanka-Maldives",
+      "continent": ["South Asia"],
+      "startDate": "2021-12-26",
+      "endDate": "2022-01-12",
+      "totalDays": 18,
+      "description": "On this European journey we will visit the traditional Highland Games, search for the Loch Ness monster, taste whisky at the smallest distillery Edradour in Scotland and visit the historic Edinburgh Castle. The journey will continue to Belfast, Ireland the country where you will experience beautiful scenery, live music, city life, beer and more whisky. Apart from Belfast we will also visit Galway and finish the trip in Dublin.",
+      "images": ["/images/sri_lanka-maldives_2021_1.JPG"],
+      "countries": ["Sri Lanka", "Maldives"]
+    },
+    {
+      "id": "Panama-Mexico_2022-01-15",
+      "name": "Panama-Mexico",
+      "continent": ["North America"],
+      "startDate": "2022-01-15",
+      "endDate": "2022-02-18",
+      "totalDays": 35,
+      "description": "On this European journey we will visit the traditional Highland Games, search for the Loch Ness monster, taste whisky at the smallest distillery Edradour in Scotland and visit the historic Edinburgh Castle. The journey will continue to Belfast, Ireland the country where you will experience beautiful scenery, live music, city life, beer and more whisky. Apart from Belfast we will also visit Galway and finish the trip in Dublin.",
+      "images": ["/images/panama-mexico_2022_1.JPG"],
+      "countries": [
+        "Panama",
+        "Costa Rico",
+        "Nicaragua",
+        "El Salvador",
+        "Honduras",
+        "Guatemala",
+        "Belize",
+        "Mexico"
+      ]
+    },
+    {
+      "id": "Mountain_Gorillas_2022-06-25",
+      "name": "Mountain Gorillas",
+      "continent": ["Africa"],
+      "startDate": "2022-06-25",
+      "endDate": "2022-07-18",
+      "totalDays": 24,
+      "description": "On this European journey we will visit the traditional Highland Games, search for the Loch Ness monster, taste whisky at the smallest distillery Edradour in Scotland and visit the historic Edinburgh Castle. The journey will continue to Belfast, Ireland the country where you will experience beautiful scenery, live music, city life, beer and more whisky. Apart from Belfast we will also visit Galway and finish the trip in Dublin.",
+      "images": [
+        "/images/mountain_gorillas_2022_1.JPG",
+        "/images/image.JPG",
+        "/images/image.JPG",
+        "/images/image.JPG"
+      ],
+      "countries": ["Kenya", "Rwanda", "Uganda"]
+    },
+    {
+      "id": "Safari_&_Zanzibar_2022-07-18",
+      "name": "Safari & Zanzibar",
+      "continent": ["Africa"],
+      "startDate": "2022-07-18",
+      "endDate": "2022-08-10",
+      "totalDays": 24,
+      "description": "On this European journey we will visit the traditional Highland Games, search for the Loch Ness monster, taste whisky at the smallest distillery Edradour in Scotland and visit the historic Edinburgh Castle. The journey will continue to Belfast, Ireland the country where you will experience beautiful scenery, live music, city life, beer and more whisky. Apart from Belfast we will also visit Galway and finish the trip in Dublin.",
+      "images": [
+        "/images/safari_&_zanzibar_2022_1.JPG",
+        "/images/image.JPG",
+        "/images/image.JPG",
+        "/images/image.JPG"
+      ],
+      "countries": ["Kenya", "Tanzania"]
+    }
+  ]
+}

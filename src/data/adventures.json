@@ -1,0 +1,387 @@
+[
+  {
+    "id": "Morocco_2012",
+    "name": "Morocco",
+    "continent": ["Africa"],
+    "date": [{ "startDate": "2012-05-01" }, { "endDate": "2012-01-06" }],
+    "totalDays": 6,
+    "description": "This trip was a birthday present to my father where we traveled to Africa",
+    "images": ["source", "source", "source", "source"],
+    "countries": ["Morocco"]
+  },
+  {
+    "id": "Scotland-Ireland_2012",
+    "name": "Scotland-Ireland",
+    "continent": ["Europe"],
+    "date": [{ "startDate": "2012-07-08" }, { "endDate": "2012-07-31" }],
+    "totalDays": 24,
+    "description": "On this European journey we will visit the traditional Highland Games, search for the Loch Ness monster, taste whisky at the smallest distillery Edradour in Scotland and visit the historic Edinburgh Castle. The journey will continue to Belfast, Ireland the country where you will experience beautiful scenery, live music, city life, beer and more whisky. Apart from Belfast we will also visit Galway and finish the trip in Dublin.",
+    "images": ["source", "source", "source", "source"],
+    "countries": ["Denmark", "United Kingdom", "Scotland", "Ireland"]
+  },
+  {
+    "id": "Oman_2013",
+    "name": "Oman",
+    "continent": ["Asia"],
+    "date": [{ "startDate": "2013-12-26" }, { "endDate": "2013-01-06" }],
+    "totalDays": 12,
+    "description": "On this European journey we will visit the traditional Highland Games, search for the Loch Ness monster, taste whisky at the smallest distillery Edradour in Scotland and visit the historic Edinburgh Castle. The journey will continue to Belfast, Ireland the country where you will experience beautiful scenery, live music, city life, beer and more whisky. Apart from Belfast we will also visit Galway and finish the trip in Dublin.",
+    "images": ["source", "source", "source", "source"],
+    "countries": ["Oman"]
+  },
+  {
+    "id": "Mountain_Gorillas_2013",
+    "name": "Mountain Gorillas",
+    "continent": ["Africa"],
+    "date": [{ "startDate": "2013-07-07" }, { "endDate": "2012-07-24" }],
+    "totalDays": 8,
+    "description": "This trip will start in the capital og Rwanda",
+    "images": ["source", "source", "source", "source"],
+    "countries": ["Rwanda", "Uganda"],
+    "price": 36700
+  },
+  {
+    "id": "Cambridge_2013",
+    "name": "Cambridge",
+    "continent": ["Europe"],
+    "date": [{ "startDate": "2013-08-31" }, { "endDate": "2013-10-29" }],
+    "totalDays": 60,
+    "description": "On this European journey we will visit the traditional Highland Games, search for the Loch Ness monster, taste whisky at the smallest distillery Edradour in Scotland and visit the historic Edinburgh Castle. The journey will continue to Belfast, Ireland the country where you will experience beautiful scenery, live music, city life, beer and more whisky. Apart from Belfast we will also visit Galway and finish the trip in Dublin.",
+    "images": ["source", "source", "source", "source"],
+    "countries": ["United Kingdom"]
+  },
+  {
+    "id": "Paris_2013",
+    "name": "Paris",
+    "continent": ["Europe"],
+    "date": [{ "startDate": "2013-10-18" }, { "endDate": "2013-10-20" }],
+    "totalDays": 3,
+    "description": "On this European journey we will visit the traditional Highland Games, search for the Loch Ness monster, taste whisky at the smallest distillery Edradour in Scotland and visit the historic Edinburgh Castle. The journey will continue to Belfast, Ireland the country where you will experience beautiful scenery, live music, city life, beer and more whisky. Apart from Belfast we will also visit Galway and finish the trip in Dublin.",
+    "images": ["source", "source", "source", "source"],
+    "countries": ["France"]
+  },
+  {
+    "id": "South_Africa-Zambia_2013",
+    "name": "South Africa-Zambia",
+    "continent": ["Africa"],
+    "date": [{ "startDate": "2013-11-06" }, { "endDate": "2013-12-10" }],
+    "totalDays": 40,
+    "description": "On this European journey we will visit the traditional Highland Games, search for the Loch Ness monster, taste whisky at the smallest distillery Edradour in Scotland and visit the historic Edinburgh Castle. The journey will continue to Belfast, Ireland the country where you will experience beautiful scenery, live music, city life, beer and more whisky. Apart from Belfast we will also visit Galway and finish the trip in Dublin.",
+    "images": ["source", "source", "source", "source"],
+    "countries": [
+      "South Africa",
+      "Namibia",
+      "Botswana",
+      "Malawi",
+      "Zimbabwe",
+      "Zambia"
+    ]
+  },
+  {
+    "id": "Eastern_Europe_2014",
+    "name": "Eastern Europe",
+    "continent": ["Europe"],
+    "date": [{ "startDate": "2014-06-12" }, { "endDate": "2012-07-03" }],
+    "totalDays": 24,
+    "description": "On this European journey we will visit the traditional Highland Games, search for the Loch Ness monster, taste whisky at the smallest distillery Edradour in Scotland and visit the historic Edinburgh Castle. The journey will continue to Belfast, Ireland the country where you will experience beautiful scenery, live music, city life, beer and more whisky. Apart from Belfast we will also visit Galway and finish the trip in Dublin.",
+    "images": ["source", "source", "source", "source"],
+    "countries": [
+      "Latvia",
+      "Lithuania",
+      "Belarus",
+      "Ukraine",
+      "Moldavia",
+      "Rumania",
+      "Bulgaria",
+      "North Macedonia",
+      "Albania",
+      "Montenegro",
+      "Croatia"
+    ]
+  },
+  {
+    "id": "New_York_2014",
+    "name": "New York",
+    "continent": ["Norther America"],
+    "date": [{ "startDate": "2014-08-25" }, { "endDate": "2014-09-01" }],
+    "totalDays": 8,
+    "description": "On this European journey we will visit the traditional Highland Games, search for the Loch Ness monster, taste whisky at the smallest distillery Edradour in Scotland and visit the historic Edinburgh Castle. The journey will continue to Belfast, Ireland the country where you will experience beautiful scenery, live music, city life, beer and more whisky. Apart from Belfast we will also visit Galway and finish the trip in Dublin.",
+    "images": ["source", "source", "source", "source"],
+    "countries": ["USA"]
+  },
+  {
+    "id": "Kenya-South_Africa_2015",
+    "name": "Kenya-South Africa",
+    "continent": ["Africa"],
+    "date": [{ "startDate": "2015-01-11" }, { "endDate": "2015-03-08" }],
+    "totalDays": 57,
+    "description": "On this European journey we will visit the traditional Highland Games, search for the Loch Ness monster, taste whisky at the smallest distillery Edradour in Scotland and visit the historic Edinburgh Castle. The journey will continue to Belfast, Ireland the country where you will experience beautiful scenery, live music, city life, beer and more whisky. Apart from Belfast we will also visit Galway and finish the trip in Dublin.",
+    "images": ["source", "source", "source", "source"],
+    "countries": [
+      "Kenya",
+      "Tanzania",
+      "Malawi",
+      "Zambia",
+      "Zimbabwe",
+      "Botswana",
+      "Namibia",
+      "South Africa"
+    ]
+  },
+  {
+    "id": "Interrail_Europe_2015",
+    "name": "Interrail Europe",
+    "continent": ["Europe"],
+    "date": [{ "startDate": "2015-06-18" }, { "endDate": "2012-07-16" }],
+    "totalDays": 29,
+    "description": "On this European journey we will visit the traditional Highland Games, search for the Loch Ness monster, taste whisky at the smallest distillery Edradour in Scotland and visit the historic Edinburgh Castle. The journey will continue to Belfast, Ireland the country where you will experience beautiful scenery, live music, city life, beer and more whisky. Apart from Belfast we will also visit Galway and finish the trip in Dublin.",
+    "images": ["source", "source", "source", "source"],
+    "countries": [
+      "Czech Republic",
+      "Germany",
+      "Poland",
+      "Slovakia",
+      "Austria",
+      "Hungary",
+      "Serbia",
+      "Bosnia",
+      "Croatia",
+      "Slovenia",
+      "Italy",
+      "Monaco",
+      "Switzerland",
+      "Spain",
+      "France",
+      "Belgium",
+      "Netherlands",
+      "Denmark"
+    ]
+  },
+
+  {
+    "id": "Iceland-Faroe_Islands_2016",
+    "name": "Iceland-Faroe Islands",
+    "continent": ["Europe"],
+    "date": [{ "startDate": "2016-07-01" }, { "endDate": "2012-07-17" }],
+    "totalDays": 17,
+    "description": "On this European journey we will visit the traditional Highland Games, search for the Loch Ness monster, taste whisky at the smallest distillery Edradour in Scotland and visit the historic Edinburgh Castle. The journey will continue to Belfast, Ireland the country where you will experience beautiful scenery, live music, city life, beer and more whisky. Apart from Belfast we will also visit Galway and finish the trip in Dublin.",
+    "images": ["source", "source", "source", "source"],
+    "countries": ["Denmark", "Faroe Islands", "Iceland"]
+  },
+  {
+    "id": "Kebnekaise_2016",
+    "name": "Kebnekaise",
+    "continent": ["Europe"],
+    "date": [{ "startDate": "2016-07-29" }, { "endDate": "2012-08-06" }],
+    "totalDays": 9,
+    "description": "On this European journey we will visit the traditional Highland Games, search for the Loch Ness monster, taste whisky at the smallest distillery Edradour in Scotland and visit the historic Edinburgh Castle. The journey will continue to Belfast, Ireland the country where you will experience beautiful scenery, live music, city life, beer and more whisky. Apart from Belfast we will also visit Galway and finish the trip in Dublin.",
+    "images": ["source", "source", "source", "source"],
+    "countries": ["Sweden"]
+  },
+  {
+    "id": "Hiking_in_SriLanka_2016",
+    "name": "Hiking in Sri Lanka",
+    "continent": ["Asia"],
+    "date": [{ "startDate": "2016-12-19" }, { "endDate": "2017-01-04" }],
+    "totalDays": 17,
+    "description": "On this European journey we will visit the traditional Highland Games, search for the Loch Ness monster, taste whisky at the smallest distillery Edradour in Scotland and visit the historic Edinburgh Castle. The journey will continue to Belfast, Ireland the country where you will experience beautiful scenery, live music, city life, beer and more whisky. Apart from Belfast we will also visit Galway and finish the trip in Dublin.",
+    "images": ["source", "source", "source", "source"],
+    "countries": ["Sri Lanka"]
+  },
+  {
+    "id": "Trans-Siberian_Railway_2017",
+    "name": "Trans-Siberian Railway",
+    "continent": ["Europe", "Asia"],
+    "date": [{ "startDate": "2017-06-21" }, { "endDate": "2017-07-26" }],
+    "totalDays": 36,
+    "description": "On this European journey we will visit the traditional Highland Games, search for the Loch Ness monster, taste whisky at the smallest distillery Edradour in Scotland and visit the historic Edinburgh Castle. The journey will continue to Belfast, Ireland the country where you will experience beautiful scenery, live music, city life, beer and more whisky. Apart from Belfast we will also visit Galway and finish the trip in Dublin.",
+    "images": ["source", "source", "source", "source"],
+    "countries": [
+      "Russia",
+      "Mongolia",
+      "China",
+      "South Korea",
+      "Japan",
+      "Taiwan"
+    ]
+  },
+  {
+    "id": "Backpacking_in_England_2017",
+    "name": "Backpacking in England",
+    "continent": ["Europe"],
+    "date": [{ "startDate": "2017-07-28" }, { "endDate": "2017-08-20" }],
+    "totalDays": 24,
+    "description": "On this European journey we will visit the traditional Highland Games, search for the Loch Ness monster, taste whisky at the smallest distillery Edradour in Scotland and visit the historic Edinburgh Castle. The journey will continue to Belfast, Ireland the country where you will experience beautiful scenery, live music, city life, beer and more whisky. Apart from Belfast we will also visit Galway and finish the trip in Dublin.",
+    "images": ["source", "source", "source", "source"],
+    "countries": ["United Kingdom"]
+  },
+  {
+    "id": "Christmas_&_New_Year_in_Colombia_2017",
+    "name": "Christmas & New Year in Colombia",
+    "continent": ["South America"],
+    "date": [{ "startDate": "2017-12-20" }, { "endDate": "2018-01-07" }],
+    "totalDays": 19,
+    "description": "On this European journey we will visit the traditional Highland Games, search for the Loch Ness monster, taste whisky at the smallest distillery Edradour in Scotland and visit the historic Edinburgh Castle. The journey will continue to Belfast, Ireland the country where you will experience beautiful scenery, live music, city life, beer and more whisky. Apart from Belfast we will also visit Galway and finish the trip in Dublin.",
+    "images": ["source", "source", "source", "source"],
+    "countries": ["Colombia"]
+  },
+  {
+    "id": "Adventure_around_Himalaya_2018",
+    "name": "Adventure around Himalaya",
+    "continent": ["Asia"],
+    "date": [{ "startDate": "2018-10-04" }, { "endDate": "2018-10-20" }],
+    "totalDays": 17,
+    "description": "On this European journey we will visit the traditional Highland Games, search for the Loch Ness monster, taste whisky at the smallest distillery Edradour in Scotland and visit the historic Edinburgh Castle. The journey will continue to Belfast, Ireland the country where you will experience beautiful scenery, live music, city life, beer and more whisky. Apart from Belfast we will also visit Galway and finish the trip in Dublin.",
+    "images": ["source", "source", "source", "source"],
+    "countries": ["Nepal", "Bhutan", "India", "Bangladesh"]
+  },
+  {
+    "id": "Hiking_in_Nepal_2018",
+    "name": "Hiking in Nepal",
+    "continent": ["Asia"],
+    "date": [{ "startDate": "2018-11-07" }, { "endDate": "2018-11-18" }],
+    "totalDays": 12,
+    "description": "On this European journey we will visit the traditional Highland Games, search for the Loch Ness monster, taste whisky at the smallest distillery Edradour in Scotland and visit the historic Edinburgh Castle. The journey will continue to Belfast, Ireland the country where you will experience beautiful scenery, live music, city life, beer and more whisky. Apart from Belfast we will also visit Galway and finish the trip in Dublin.",
+    "images": ["source", "source", "source", "source"],
+    "countries": ["Nepal"]
+  },
+  {
+    "id": "Sri_Lanka-Maldives_2018",
+    "name": "Sri Lanka-Maldives",
+    "continent": ["Asia"],
+    "date": [{ "startDate": "2018-12-27" }, { "endDate": "2019-01-12" }],
+    "totalDays": 17,
+    "description": "On this European journey we will visit the traditional Highland Games, search for the Loch Ness monster, taste whisky at the smallest distillery Edradour in Scotland and visit the historic Edinburgh Castle. The journey will continue to Belfast, Ireland the country where you will experience beautiful scenery, live music, city life, beer and more whisky. Apart from Belfast we will also visit Galway and finish the trip in Dublin.",
+    "images": ["source", "source", "source", "source"],
+    "countries": ["Sri Lanka", "Maldives"]
+  },
+  {
+    "id": "Malta_2019",
+    "name": "Malta",
+    "continent": ["Europe"],
+    "date": [{ "startDate": "2019-04-27" }, { "endDate": "2019-05-02" }],
+    "totalDays": 6,
+    "description": "On this European journey we will visit the traditional Highland Games, search for the Loch Ness monster, taste whisky at the smallest distillery Edradour in Scotland and visit the historic Edinburgh Castle. The journey will continue to Belfast, Ireland the country where you will experience beautiful scenery, live music, city life, beer and more whisky. Apart from Belfast we will also visit Galway and finish the trip in Dublin.",
+    "images": ["source", "source", "source", "source"],
+    "countries": ["Malta"]
+  },
+  {
+    "id": "Hiking_in_Norway_2019",
+    "name": "Hiking in Norway",
+    "continent": ["Europe"],
+    "date": [{ "startDate": "2019-06-28" }, { "endDate": "2019-07-07" }],
+    "totalDays": 10,
+    "description": "On this European journey we will visit the traditional Highland Games, search for the Loch Ness monster, taste whisky at the smallest distillery Edradour in Scotland and visit the historic Edinburgh Castle. The journey will continue to Belfast, Ireland the country where you will experience beautiful scenery, live music, city life, beer and more whisky. Apart from Belfast we will also visit Galway and finish the trip in Dublin.",
+    "images": ["source", "source", "source", "source"],
+    "countries": ["Norway"]
+  },
+  {
+    "id": "Backpacking_in_South_East_Asia_2019",
+    "name": "Backpacking in South East Asia",
+    "continent": ["Asia"],
+    "date": [{ "startDate": "2019-10-18" }, { "endDate": "2019-11-10" }],
+    "totalDays": 24,
+    "description": "On this European journey we will visit the traditional Highland Games, search for the Loch Ness monster, taste whisky at the smallest distillery Edradour in Scotland and visit the historic Edinburgh Castle. The journey will continue to Belfast, Ireland the country where you will experience beautiful scenery, live music, city life, beer and more whisky. Apart from Belfast we will also visit Galway and finish the trip in Dublin.",
+    "images": ["source", "source", "source", "source"],
+    "countries": ["Singapore", "Indonesia", "Philippines", "Qatar"]
+  },
+  {
+    "id": "Christmas_in_Israel_2019",
+    "name": "Christmas in Israel",
+    "continent": ["Asia"],
+    "date": [{ "startDate": "2019-12-22" }, { "endDate": "2019-12-29" }],
+    "totalDays": 8,
+    "description": "On this European journey we will visit the traditional Highland Games, search for the Loch Ness monster, taste whisky at the smallest distillery Edradour in Scotland and visit the historic Edinburgh Castle. The journey will continue to Belfast, Ireland the country where you will experience beautiful scenery, live music, city life, beer and more whisky. Apart from Belfast we will also visit Galway and finish the trip in Dublin.",
+    "images": ["source", "source", "source", "source"],
+    "countries": ["Israel"]
+  },
+  {
+    "id": "Kenya-Eritrea_2020",
+    "name": "Kenya-Eritrea",
+    "continent": ["Africa"],
+    "date": [{ "startDate": "2020-01-18" }, { "endDate": "2020-02-18" }],
+    "totalDays": 32,
+    "description": "On this European journey we will visit the traditional Highland Games, search for the Loch Ness monster, taste whisky at the smallest distillery Edradour in Scotland and visit the historic Edinburgh Castle. The journey will continue to Belfast, Ireland the country where you will experience beautiful scenery, live music, city life, beer and more whisky. Apart from Belfast we will also visit Galway and finish the trip in Dublin.",
+    "images": ["source", "source", "source", "source"],
+    "countries": ["Kenya", "Ethiopia", "Djibouti", "Eritrea"]
+  },
+  {
+    "id": "Colour_festival_in_India_2020",
+    "name": "Colour festival in India",
+    "continent": ["Asia"],
+    "date": [{ "startDate": "2020-03-1" }, { "endDate": "2020-03-19" }],
+    "totalDays": 19,
+    "description": "On this European journey we will visit the traditional Highland Games, search for the Loch Ness monster, taste whisky at the smallest distillery Edradour in Scotland and visit the historic Edinburgh Castle. The journey will continue to Belfast, Ireland the country where you will experience beautiful scenery, live music, city life, beer and more whisky. Apart from Belfast we will also visit Galway and finish the trip in Dublin.",
+    "images": ["source", "source", "source", "source"],
+    "countries": ["United Arab Emirates", "India"]
+  },
+  {
+    "id": "Road_trip_in_south_Sweden_2021",
+    "name": "Road trip in south Sweden",
+    "continent": ["Europe"],
+    "date": [{ "startDate": "2021-06-10" }, { "endDate": "2021-06-24" }],
+    "totalDays": 15,
+    "description": "On this European journey we will visit the traditional Highland Games, search for the Loch Ness monster, taste whisky at the smallest distillery Edradour in Scotland and visit the historic Edinburgh Castle. The journey will continue to Belfast, Ireland the country where you will experience beautiful scenery, live music, city life, beer and more whisky. Apart from Belfast we will also visit Galway and finish the trip in Dublin.",
+    "images": ["source", "source", "source", "source"],
+    "countries": ["Sweden"]
+  },
+  {
+    "id": "Saudiarabia_2021",
+    "name": "Saudiarabia",
+    "continent": ["Asia"],
+    "date": [{ "startDate": "2021-11-13" }, { "endDate": "2021-11-28" }],
+    "totalDays": 16,
+    "description": "On this European journey we will visit the traditional Highland Games, search for the Loch Ness monster, taste whisky at the smallest distillery Edradour in Scotland and visit the historic Edinburgh Castle. The journey will continue to Belfast, Ireland the country where you will experience beautiful scenery, live music, city life, beer and more whisky. Apart from Belfast we will also visit Galway and finish the trip in Dublin.",
+    "images": ["source", "source", "source", "source"],
+    "countries": ["Saudiarabia"]
+  },
+  {
+    "id": "Sri_Lanka-Maldives_2021",
+    "name": "Sri Lanka-Maldives",
+    "continent": ["Asia"],
+    "date": [{ "startDate": "2021-12-26" }, { "endDate": "2022-01-12" }],
+    "totalDays": 18,
+    "description": "On this European journey we will visit the traditional Highland Games, search for the Loch Ness monster, taste whisky at the smallest distillery Edradour in Scotland and visit the historic Edinburgh Castle. The journey will continue to Belfast, Ireland the country where you will experience beautiful scenery, live music, city life, beer and more whisky. Apart from Belfast we will also visit Galway and finish the trip in Dublin.",
+    "images": ["source", "source", "source", "source"],
+    "countries": ["Sri Lanka", "Maldives"]
+  },
+  {
+    "id": "Panama-Mexico_2022",
+    "name": "Panama-Mexico",
+    "continent": ["Norther America"],
+    "date": [{ "startDate": "2022-01-15" }, { "endDate": "2022-02-18" }],
+    "totalDays": 35,
+    "description": "On this European journey we will visit the traditional Highland Games, search for the Loch Ness monster, taste whisky at the smallest distillery Edradour in Scotland and visit the historic Edinburgh Castle. The journey will continue to Belfast, Ireland the country where you will experience beautiful scenery, live music, city life, beer and more whisky. Apart from Belfast we will also visit Galway and finish the trip in Dublin.",
+    "images": ["source", "source", "source", "source"],
+    "countries": [
+      "Panama",
+      "Costa Rico",
+      "Nicaragua",
+      "El Salvador",
+      "Honduras",
+      "Guatemala",
+      "Belize",
+      "Mexico"
+    ]
+  },
+  {
+    "id": "Mountain_Gorillas_2022",
+    "name": "Mountain Gorillas",
+    "continent": ["Africa"],
+    "date": [{ "startDate": "2022-06-25" }, { "endDate": "2022-07-18" }],
+    "totalDays": 24,
+    "description": "On this European journey we will visit the traditional Highland Games, search for the Loch Ness monster, taste whisky at the smallest distillery Edradour in Scotland and visit the historic Edinburgh Castle. The journey will continue to Belfast, Ireland the country where you will experience beautiful scenery, live music, city life, beer and more whisky. Apart from Belfast we will also visit Galway and finish the trip in Dublin.",
+    "images": ["source", "source", "source", "source"],
+    "countries": ["Kenya", "Rwanda", "Uganda"]
+  },
+  {
+    "id": "Safari_&_Zanzibar_2022",
+    "name": "Safari & Zanzibar",
+    "continent": ["Africa"],
+    "date": [{ "startDate": "2022-07-18" }, { "endDate": "2022-08-10" }],
+    "totalDays": 24,
+    "description": "On this European journey we will visit the traditional Highland Games, search for the Loch Ness monster, taste whisky at the smallest distillery Edradour in Scotland and visit the historic Edinburgh Castle. The journey will continue to Belfast, Ireland the country where you will experience beautiful scenery, live music, city life, beer and more whisky. Apart from Belfast we will also visit Galway and finish the trip in Dublin.",
+    "images": ["source", "source", "source", "source"],
+    "countries": ["Kenya", "Tanzania"]
+  }
+]

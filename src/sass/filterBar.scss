@@ -1,0 +1,220 @@
+.filterButton {
+  position: fixed;
+  display: flex;
+  top: 16px;
+  left: 82px;
+  z-index: 9;
+  padding: 8px;
+  border-radius: 10px;
+  transition: all 1s ease-in-out;
+
+  & .imageButton {
+    font-size: 1.6em;
+    border-radius: 4px;
+
+    cursor: pointer;
+
+    &__message {
+      position: relative;
+      display: flex;
+      &::before {
+        content: attr(data-hover);
+        visibility: hidden;
+        opacity: 0;
+        transition: opacity 1s ease-in-out;
+        background-color: #fefefec8;
+        width: max-content;
+        position: absolute;
+        padding: 4px 8px;
+        font-size: 0.9em;
+        font-weight: 600;
+        border-radius: 6px;
+        left: 38px;
+        transform: translateY(85%);
+        bottom: 20px;
+      }
+      &:hover::before {
+        opacity: 1;
+        visibility: visible;
+      }
+    }
+  }
+  &:hover {
+    background-color: #fefefe9b;
+  }
+}
+
+.filterBar {
+  position: fixed;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  background-color: #fefefe9f;
+  backdrop-filter: blur(8px);
+  top: 74px;
+  padding: 0px 24px 24px;
+  z-index: 4;
+  transition: all 1s ease-in-out;
+  visibility: hidden;
+  opacity: 0;
+  width: fit-content;
+  height: fit-content;
+  gap: 16px;
+  border-bottom-right-radius: 25px;
+  &_heading {
+    font-size: 1.4em;
+    margin-bottom: 0px;
+  }
+  & .main_label {
+    font-size: 1.2em;
+    font-weight: 600;
+  }
+  & .sortDirection {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    font-size: 1em;
+
+    &_radio {
+      display: flex;
+      flex-direction: column;
+      gap: 4px;
+      &_options {
+        display: flex;
+        flex-direction: row;
+        gap: 6px;
+
+        & input {
+          margin: 0 0 0 8px;
+          accent-color: #7e5b57;
+        }
+      }
+    }
+  }
+  & .sortOn {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+
+    & select {
+      display: flex;
+      padding: 3px 8px;
+      border-radius: 6px;
+      color: #7e5b57;
+      border: 0.5px solid #7e5b57;
+      outline: 0.5px solid #7e5b57;
+      background-color: #fefefe;
+      transition: 400ms;
+      &:hover {
+        outline: 1px solid #7e5b57;
+      }
+      &:active {
+        outline: 1px solid #7e5b57;
+      }
+      & option {
+        display: flex;
+        padding: 3px 8px;
+      }
+    }
+  }
+
+  & .filterContinents {
+    &__details {
+      display: flex;
+
+      &__heading {
+        display: flex;
+        align-items: center;
+        cursor: pointer;
+        &::marker {
+          content: none;
+        }
+        &:hover > .airplane {
+          transform: translateX(4px);
+        }
+      }
+
+      & .airplane {
+        margin-left: 8px;
+        display: inline-flex;
+        transition: 0.4s;
+      }
+      &[open] .airplane {
+        transform: rotate(90deg);
+      }
+
+      &__content {
+        display: flex;
+        flex-direction: column;
+        margin: 8px 0;
+        font-weight: 500;
+        gap: 4px;
+
+        transition: 5s ease-in-out;
+
+        &__item {
+          display: flex;
+          gap: 6px;
+          & input {
+            margin: 0 0 0 10px;
+            accent-color: #7e5b57;
+          }
+        }
+      }
+    }
+  }
+
+  .filterDays {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    & .min-max-slider {
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+      &__filter {
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+
+        & input[type="range"] {
+          -webkit-appearance: none;
+          appearance: none;
+          background: transparent;
+          cursor: pointer;
+          &::-webkit-slider-runnable-track {
+            height: 0.8em;
+            border-radius: 6px;
+            background-color: #7e5b57a0;
+          }
+          &::-webkit-progress-bar {
+            background-color: #6c4e4a;
+          }
+          &::-webkit-slider-thumb {
+            -webkit-appearance: none; /* Override default look */
+            appearance: none;
+            margin-top: -7px; /* Centers thumb on the track */
+            background-color: #6c4e4a;
+            height: 1.8em;
+            width: 0.9em;
+            border-radius: 5px;
+          }
+        }
+      }
+
+      &__value {
+        font-size: 1em;
+        font-weight: 600;
+        padding: 0 4px;
+        &.min {
+          text-align: start;
+        }
+        &.max {
+          text-align: end;
+        }
+      }
+    }
+  }
+}

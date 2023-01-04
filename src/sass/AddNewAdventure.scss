@@ -1,0 +1,218 @@
+.addAdventureForm {
+  display: flex;
+  flex-direction: column;
+  border-radius: 15px;
+  margin: 32px;
+  background-color: #fefefe80;
+  backdrop-filter: blur(4px);
+  padding: 24px 32px;
+  gap: 16px;
+  & label {
+    font-size: 1.3em;
+    font-weight: 600;
+  }
+
+  & input {
+    width: 100%;
+    padding: 4px 8px;
+    border: 0;
+    border-radius: 6px;
+    outline: 0;
+    color: inherit;
+    &::placeholder {
+      color: inherit;
+    }
+  }
+
+  & textarea {
+    display: flex;
+    padding: 4px 8px;
+    border: 0;
+    border-radius: 6px;
+    outline: 0;
+    line-height: 1.5em;
+    color: inherit;
+    resize: none;
+  }
+  & .adventureName {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 8px;
+
+    & label {
+      margin-bottom: 0;
+    }
+    & p {
+      font-size: 0.9em;
+      margin: 0;
+    }
+  }
+
+  & .dates {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    text-align: center;
+
+    &__date {
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+      & input {
+        width: min-content;
+        text-align: center;
+      }
+    }
+  }
+
+  & .adventureDescription {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    & p {
+      display: flex;
+      position: absolute;
+      font-size: 0.9em;
+      top: -8px;
+      right: 0px;
+    }
+  }
+
+  & .adventureImages {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    &__label {
+      display: flex;
+      align-items: center;
+      gap: 24px;
+      & label {
+        margin-bottom: 0;
+      }
+
+      &__icon {
+        display: flex;
+        height: fit-content;
+        & .imageButton {
+          font-size: 1.2em;
+          border-radius: 4px;
+          cursor: pointer;
+
+          &__message {
+            position: relative;
+            display: flex;
+            &::before {
+              content: attr(data-hover);
+              visibility: hidden;
+              opacity: 0;
+              transition: opacity 1s ease-in-out;
+              background-color: #fefefec8;
+              width: max-content;
+              position: absolute;
+              padding: 4px 8px;
+              font-size: 0.8em;
+              border-radius: 6px;
+              z-index: 1;
+              left: 0;
+              transform: translateX(-35%);
+              bottom: 20px;
+            }
+            &:hover::before {
+              opacity: 1;
+              visibility: visible;
+            }
+          }
+        }
+      }
+    }
+
+    &__input {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 8px;
+
+      @media (max-width: 700px) {
+        grid-template-columns: 1fr;
+      }
+      &__image {
+        width: calc(100% - 16px);
+      }
+    }
+
+    & .imageMessage {
+      display: none;
+      margin: 0;
+      opacity: 0;
+      transition: opacity 1s ease-in-out;
+    }
+  }
+
+  & .continentCheckboxes {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 8px;
+
+    &__continent {
+      width: calc(50% - 4px);
+
+      & details {
+        & .continentSummary {
+          display: flex;
+          flex-direction: row;
+          align-items: center;
+          gap: 8px;
+          font-size: 1.3em;
+          font-weight: 600;
+          cursor: pointer;
+
+          &::marker {
+            content: none;
+          }
+        }
+        & .airplane {
+          display: inline-flex;
+          transition: 0.4s;
+        }
+
+        :hover > .airplane {
+          transform: translateX(4px);
+        }
+
+        &[open] .airplane {
+          transform: rotate(90deg);
+        }
+        & .countryList {
+          display: flex;
+          flex-direction: column;
+          margin: 8px;
+          gap: 8px;
+
+          & .countryRow {
+            display: flex;
+            flex-direction: row;
+            align-items: flex-start;
+            gap: 8px;
+            & input {
+              width: min-content;
+            }
+            & label {
+              font-size: 1.1em;
+              cursor: pointer;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  & .adventureFormSubmitButton {
+    display: flex;
+    width: fit-content;
+    background-color: #fefefee1;
+    align-self: center;
+  }
+}

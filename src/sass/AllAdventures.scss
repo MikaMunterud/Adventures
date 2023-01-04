@@ -1,0 +1,66 @@
+.errorMessage {
+  font-size: 1.7em;
+  font-weight: 600;
+  margin: 0 0 0 32px;
+  transition: opacity 1s ease-in-out;
+  visibility: hidden;
+  opacity: 0;
+}
+
+.allAdventures {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: auto;
+  gap: 32px;
+  margin: 0px 32px;
+  z-index: 1;
+  &__adventure {
+    display: flex;
+    flex-direction: column;
+    background-color: #fefefe80;
+    backdrop-filter: blur(4px);
+    // height: min-content;
+    padding: 0 32px 32px;
+    border-radius: 15px;
+    align-items: center;
+    z-index: 2;
+    &__heading {
+      font-size: 1.4rem;
+      margin-bottom: 8px;
+      text-align: center;
+    }
+    &__dates {
+      font-size: 0.9em;
+      margin: 0;
+    }
+    &__days {
+      font-size: 0.9em;
+      margin: 4px;
+    }
+    &__image {
+      display: flex;
+      margin: 8px 0;
+      border-radius: 15px;
+      width: 100%;
+      text-align: center;
+    }
+    &__link {
+      display: flex;
+      align-items: center;
+      color: inherit;
+      margin-top: 12px;
+
+      & .airplane {
+        margin-left: 4px;
+        display: inline-flex;
+        transition: 0.4s;
+      }
+      &:hover > .airplane {
+        transform: translateX(4px);
+      }
+    }
+  }
+  @media (max-width: 700px) {
+    grid-template-columns: 1fr;
+  }
+}

@@ -1,0 +1,14 @@
+.WorldMap {
+  width: calc(100% - 64px);
+  padding: 0 32px 32px;
+  &__image {
+    width: 100%;
+  }
+}
+
+h2 {
+  font-size: 2rem;
+  font-weight: bolder;
+  margin-bottom: 24px;
+  text-align: center;
+}
