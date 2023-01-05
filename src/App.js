@@ -14,13 +14,19 @@ function App() {
         <NavBar />
       </header>
       <Routes>
-        <Route path="/" element={<HomePage />} />
-        <Route path="/visited_countries" element={<HomePage />} />
-        <Route path="/adventures" element={<AllAdventures />} />
-        <Route path="/adventures/:id" element={<SingleAdventure />} />
-        <Route path="/adventures/edit/:id" element={<EditAdventure />} />
-        <Route path="/adventure/new" element={<AddNewAdventure />} />
-        <Route path="/visited_countries/edit" element={<EditCountriesList />} />
+        <Route path="Adventures/" element={<HomePage />} />
+        <Route path="Adventures/visited_countries" element={<HomePage />} />
+        <Route path="Adventures/adventures" element={<AllAdventures />} />
+        <Route path="Adventures/adventures/:id" element={<SingleAdventure />} />
+        <Route
+          path="Adventures/adventures/edit/:id"
+          element={<EditAdventure />}
+        />
+        <Route path="Adventures/adventure/new" element={<AddNewAdventure />} />
+        <Route
+          path="Adventures/visited_countries/edit"
+          element={<EditCountriesList />}
+        />
       </Routes>
     </BrowserRouter>
   );

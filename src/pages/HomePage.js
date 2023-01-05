@@ -4,7 +4,6 @@ import CalculateCountries from "../components/CalculateCountries";
 
 import "../sass/WorldMap.scss";
 import "../sass/Buttons.scss";
-// import WorldMapImage from "../components/WorldMapImage";
 
 export default function HomePage() {
   const [countryList, setCountryList] = useState([]);
@@ -17,11 +16,10 @@ export default function HomePage() {
     async function getCountryList() {
       /* If this repo is locally used with JSON Server, this fetch should be
        * used instead to make the changes work correctly.
-       * const response = await fetch("http://localhost:3002/continents");
+       * const response = await fetch("https://mikamunterud.github.io/data/continents.json");
        */
-      const response = await fetch(
-        "https://mikamunterud.github.io/data/continents.json"
-      );
+
+      const response = await fetch("http://localhost:3002/continents");
       if (response.ok) {
         const countryList = await response.json();
 
