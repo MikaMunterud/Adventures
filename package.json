@@ -55,5 +55,16 @@
   },
   "devDependencies": {
     "gh-pages": "^4.0.0"
+  },
+  "description": "This project is my final assignment in the course FrontEnd 3 JavaScript-library and frameworks.",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MikaMunterud/Adventures.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MikaMunterud/Adventures/issues"
   }
 }
