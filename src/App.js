@@ -14,6 +14,7 @@ function App() {
         <NavBar />
       </header>
       <Routes>
+        <Route path="/" element={<HomePage />} />
         <Route path="Adventures/" element={<HomePage />} />
         <Route path="Adventures/visited_countries" element={<HomePage />} />
         <Route path="Adventures/adventures" element={<AllAdventures />} />
