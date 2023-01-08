@@ -87,7 +87,7 @@ export default function SingleAdventure() {
       </div>
       <div className="singleAdventure__icon edit">
         <span className="imageButton__message" data-hover="Edit adventure">
-          <Link to={`/adventures/edit/${adventure.id}`}>
+          <Link to={`/Adventures/edit/${adventure.id}`}>
             <MdOutlineSettings className="imageButton" />
           </Link>
         </span>

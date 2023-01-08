@@ -22,7 +22,7 @@ export default function AdventureCard({ adventure, startYear }) {
       ></img>
       <Link
         className="allAdventures__adventure__link"
-        to={`/adventures/${adventure.id}`}
+        to={`/Adventures/${adventure.id}`}
       >
         More details
         <IoAirplaneOutline className="airplane" />
