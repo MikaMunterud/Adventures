@@ -170,7 +170,7 @@ export default function AddNewAdventure() {
       });
 
       if (response.ok) {
-        navigate("/adventures");
+        navigate("/adventures/all");
       } else {
         alert("Something went wrong, adventure has not been added!");
       }

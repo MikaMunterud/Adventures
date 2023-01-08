@@ -1040,146 +1040,116 @@
     {
       "id": "Morocco_2012-05-01",
       "name": "Morocco",
-      "continent": [
-        "Africa"
-      ],
+      "continent": ["Africa"],
       "startDate": "2012-05-01",
       "endDate": "2012-05-06",
       "totalDays": 6,
       "description": "This trip was a birthday present to my father where we traveled to Morocco to spend some night out in the Sahara dessert. This had always been a dream of his and with some help from his colleagues I was able to book this trip for us to experience together.",
       "images": [
-        "./images/morocco_2012_1.JPG",
-        "./images/morocco_2012_2.JPG",
-        "./images/morocco_2012_3.JPG",
-        "./images/morocco_2012_4.JPG",
-        "./images/morocco_2012_5.JPG"
+        "/images/morocco_2012_1.JPG",
+        "/images/morocco_2012_2.JPG",
+        "/images/morocco_2012_3.JPG",
+        "/images/morocco_2012_4.JPG",
+        "/images/morocco_2012_5.JPG"
       ],
-      "countries": [
-        "Algeria",
-        "Morocco"
-      ]
+      "countries": ["Algeria", "Morocco"]
     },
     {
       "id": "Scotland-Ireland_2012-07-08",
       "name": "Scotland-Ireland",
-      "continent": [
-        "Europe"
-      ],
+      "continent": ["Europe"],
       "startDate": "2012-07-08",
       "endDate": "2012-07-31",
       "totalDays": 24,
       "description": "On this European journey we will visit the traditional Highland Games, search for the Loch Ness monster, taste whisky at the smallest distillery Edradour in Scotland and visit the historic Edinburgh Castle. The journey will continue to Belfast, Ireland the country where you will experience beautiful scenery, live music, city life, beer and more whisky. Apart from Belfast we will also visit Galway and finish the trip in Dublin.",
       "images": [
-        "./images/scotland-ireland_2012_1.JPG",
-        "./images/scotland-ireland_2012_2.JPG",
-        "./images/scotland-ireland_2012_3.JPG",
-        "./images/scotland-ireland_2012_4.JPG",
-        "./images/scotland-ireland_2012_5.JPG"
+        "/images/scotland-ireland_2012_1.JPG",
+        "/images/scotland-ireland_2012_2.JPG",
+        "/images/scotland-ireland_2012_3.JPG",
+        "/images/scotland-ireland_2012_4.JPG",
+        "/images/scotland-ireland_2012_5.JPG"
       ],
-      "countries": [
-        "Denmark",
-        "Ireland",
-        "United Kingdom"
-      ]
+      "countries": ["Denmark", "Ireland", "United Kingdom"]
     },
     {
       "id": "Oman_2012-12-26",
       "name": "Oman",
-      "continent": [
-        "Middle East"
-      ],
+      "continent": ["Middle East"],
       "startDate": "2012-12-26",
       "endDate": "2013-01-06",
       "totalDays": 12,
       "description": "This was a trip I did together with my mother in Oman over New Years 2012/2013.",
       "images": [
-        "./images/oman_2012_1.JPG",
-        "./images/oman_2012_2.JPG",
-        "./images/oman_2012_3.JPG",
-        "./images/oman_2012_4.JPG"
+        "/images/oman_2012_1.JPG",
+        "/images/oman_2012_2.JPG",
+        "/images/oman_2012_3.JPG",
+        "/images/oman_2012_4.JPG"
       ],
-      "countries": [
-        "Oman"
-      ]
+      "countries": ["Oman"]
     },
     {
       "id": "Mountain_Gorillas_2013",
       "name": "Mountain Gorillas",
-      "continent": [
-        "Africa"
-      ],
+      "continent": ["Africa"],
       "startDate": "2013-07-07",
       "endDate": "2013-07-24",
       "totalDays": 18,
       "description": "This trip started in the capital of Rwanda Kigali, where we visited the historical memorial sites of the 1994 genocide. The journey continued to visit the Golden monkeys and the majestic Mountain Gorillas. \n\nThe adventure continued with safari in Queen Elizabeth Park in Uganda, a stop by the Equator, some sightseeing in the capital Kampala and some relaxing and fun time in Jinja where we did some river rafting!",
       "images": [
-        "./images/mountain_gorilla_2013_1.JPG",
-        "./images/mountain_gorilla_2013_2.JPG",
-        "./images/mountain_gorilla_2013_3.JPG",
-        "./images/mountain_gorilla_2013_4.JPG",
-        "./images/mountain_gorilla_2013_5.JPG"
+        "/images/mountain_gorilla_2013_1.JPG",
+        "/images/mountain_gorilla_2013_2.JPG",
+        "/images/mountain_gorilla_2013_3.JPG",
+        "/images/mountain_gorilla_2013_4.JPG",
+        "/images/mountain_gorilla_2013_5.JPG"
       ],
-      "countries": [
-        "Rwanda",
-        "Uganda"
-      ]
+      "countries": ["Rwanda", "Uganda"]
     },
     {
       "id": "Cambridge_2013-08-31",
       "name": "Cambridge",
-      "continent": [
-        "Europe"
-      ],
+      "continent": ["Europe"],
       "startDate": "2013-08-31",
       "endDate": "2013-10-29",
       "totalDays": 60,
       "description": "This adventure was a two months visit to the historical city Cambridge where I studied English att LSI Cambridge. These two months were spent studying a lot and making some new friends from all over the world and exchanging our different cultures and food traditions by having many food parties.",
       "images": [
-        "./images/cambridge_2013_1.JPG",
-        "./images/cambridge_2013_2.JPG",
-        "./images/cambridge_2013_3.JPG",
-        "./images/cambridge_2013_4.JPG"
+        "/images/cambridge_2013_1.JPG",
+        "/images/cambridge_2013_2.JPG",
+        "/images/cambridge_2013_3.JPG",
+        "/images/cambridge_2013_4.JPG"
       ],
-      "countries": [
-        "United Kingdom"
-      ]
+      "countries": ["United Kingdom"]
     },
     {
       "id": "Paris_2013-10-18",
       "name": "Paris",
-      "continent": [
-        "Europe"
-      ],
+      "continent": ["Europe"],
       "startDate": "2013-10-18",
       "endDate": "2013-10-20",
       "totalDays": 3,
       "description": "During my two months stay in Cambridge the school offered a trip to Paris for a bargain. Because my birthday was coming up and my parents new about my love for travels and adventures I received this trip as an early birthday present. It was an amazing trip where we managed to visit all the typical cites during this short amount of time and made a lot of new memories that I will cherish forever.",
       "images": [
-        "./images/paris_2013_1.JPG",
-        "./images/paris_2013_2.JPG",
-        "./images/paris_2013_3.JPG",
-        "./images/paris_2013_4.JPG"
+        "/images/paris_2013_1.JPG",
+        "/images/paris_2013_2.JPG",
+        "/images/paris_2013_3.JPG",
+        "/images/paris_2013_4.JPG"
       ],
-      "countries": [
-        "France"
-      ]
+      "countries": ["France"]
     },
     {
       "id": "South_Africa-Zambia_2013",
       "name": "South Africa-Zambia",
-      "continent": [
-        "Africa"
-      ],
+      "continent": ["Africa"],
       "startDate": "2013-11-06",
       "endDate": "2013-12-10",
       "totalDays": 35,
       "description": "This was an amazing one month adventure traveling from South Africa to Zambia.",
       "images": [
-        "./images/south_africa-zambia_2013_1.JPG",
-        "./images/south_africa-zambia_2013_2.JPG",
-        "./images/south_africa-zambia_2013_3.JPG",
-        "./images/south_africa-zambia_2013_4.JPG",
-        "./images/south_africa-zambia_2013_5.JPG"
+        "/images/south_africa-zambia_2013_1.JPG",
+        "/images/south_africa-zambia_2013_2.JPG",
+        "/images/south_africa-zambia_2013_3.JPG",
+        "/images/south_africa-zambia_2013_4.JPG",
+        "/images/south_africa-zambia_2013_5.JPG"
       ],
       "countries": [
         "Botswana",
@@ -1193,19 +1163,17 @@
     {
       "id": "Eastern_Europe_2014-06-12",
       "name": "Eastern Europe",
-      "continent": [
-        "Europe"
-      ],
+      "continent": ["Europe"],
       "startDate": "2014-06-12",
       "endDate": "2014-07-03",
       "totalDays": 22,
       "description": "On this European journey we traveled all the way from Sweden to Croatia.",
       "images": [
-        "./images/eastern_europe_2014_1.JPG",
-        "./images/eastern_europe_2014_2.JPG",
-        "./images/eastern_europe_2014_3.JPG",
-        "./images/eastern_europe_2014_4.JPG",
-        "./images/eastern_europe_2014_5.JPG"
+        "/images/eastern_europe_2014_1.JPG",
+        "/images/eastern_europe_2014_2.JPG",
+        "/images/eastern_europe_2014_3.JPG",
+        "/images/eastern_europe_2014_4.JPG",
+        "/images/eastern_europe_2014_5.jpg"
       ],
       "countries": [
         "Albania",
@@ -1224,40 +1192,34 @@
     {
       "id": "New_York_2014-08-25",
       "name": "New York",
-      "continent": [
-        "North America"
-      ],
+      "continent": ["North America"],
       "startDate": "2014-08-25",
       "endDate": "2014-09-01",
       "totalDays": 8,
       "description": "An awesome one week trip to New York with my Best friend. We combined this trip with visits to a lot of famous sites and did some shopping as well.",
       "images": [
-        "./images/new_york_2014_1.JPG",
-        "./images/new_york_2014_2.JPG",
-        "./images/new_york_2014_3.JPG",
-        "./images/new_york_2014_4.JPG",
-        "./images/new_york_2014_5.JPG"
+        "/images/new_york_2014_1.JPG",
+        "/images/new_york_2014_2.JPG",
+        "/images/new_york_2014_3.JPG",
+        "/images/new_york_2014_4.JPG",
+        "/images/new_york_2014_5.JPG"
       ],
-      "countries": [
-        "United States"
-      ]
+      "countries": ["United States"]
     },
     {
       "id": "Kenya-South_Africa_2015-01-11",
       "name": "Kenya-South Africa",
-      "continent": [
-        "Africa"
-      ],
+      "continent": ["Africa"],
       "startDate": "2015-01-11",
       "endDate": "2015-03-08",
       "totalDays": 57,
       "description": "This was an amazing adventure traveling from Kenya all the way to South Africa for two months.",
       "images": [
-        "./images/kenya-south_africa_2015_1.JPG",
-        "./images/kenya-south_africa_2015_2.JPG",
-        "./images/kenya-south_africa_2015_3.JPG",
-        "./images/kenya-south_africa_2015_4.JPG",
-        "./images/kenya-south_africa_2015_5.JPG"
+        "/images/kenya-south_africa_2015_1.JPG",
+        "/images/kenya-south_africa_2015_2.JPG",
+        "/images/kenya-south_africa_2015_3.JPG",
+        "/images/kenya-south_africa_2015_4.JPG",
+        "/images/kenya-south_africa_2015_5.JPG"
       ],
       "countries": [
         "Botswana",
@@ -1273,19 +1235,17 @@
     {
       "id": "Interrail_Europe_2015-06-18",
       "name": "Interrail Europe",
-      "continent": [
-        "Europe"
-      ],
+      "continent": ["Europe"],
       "startDate": "2015-06-18",
       "endDate": "2015-07-16",
       "totalDays": 29,
       "description": "This was an intense but great adventure travelling through Europe by train and other local vehicles for one month with my best friend.",
       "images": [
-        "./images/interrail_europe_2015_1.JPG",
-        "./images/interrail_europe_2015_2.JPG",
-        "./images/interrail_europe_2015_3.JPG",
-        "./images/interrail_europe_2015_4.JPG",
-        "./images/interrail_europe_2015_5.JPG"
+        "/images/interrail_europe_2015_1.JPG",
+        "/images/interrail_europe_2015_2.JPG",
+        "/images/interrail_europe_2015_3.JPG",
+        "/images/interrail_europe_2015_4.JPG",
+        "/images/interrail_europe_2015_5.JPG"
       ],
       "countries": [
         "Austria",
@@ -1310,347 +1270,216 @@
     {
       "id": "Iceland-Faroe_Islands_2016-07-01",
       "name": "Iceland-Faroe Islands",
-      "continent": [
-        "Europe"
-      ],
+      "continent": ["Europe"],
       "startDate": "2016-07-01",
       "endDate": "2016-07-17",
       "totalDays": 17,
       "description": "An adventure filled with Poppins, amazing scenery and a lot of new memories!",
       "images": [
-        "./images/iceland-faroe_islands_2016_1.JPG",
-        "./images/iceland-faroe_islands_2016_2.JPG",
-        "./images/iceland-faroe_islands_2016_3.JPG",
-        "./images/iceland-faroe_islands_2016_4.JPG",
-        "./images/iceland-faroe_islands_2016_5.JPG"
+        "/images/iceland-faroe_islands_2016_1.JPG",
+        "/images/iceland-faroe_islands_2016_2.jpg",
+        "/images/iceland-faroe_islands_2016_3.JPG",
+        "/images/iceland-faroe_islands_2016_4.jpg",
+        "/images/iceland-faroe_islands_2016_5.JPG"
       ],
-      "countries": [
-        "Denmark",
-        "Iceland"
-      ]
+      "countries": ["Denmark", "Iceland"]
     },
     {
       "id": "Kebnekaise_2016-07-29",
       "name": "Kebnekaise",
-      "continent": [
-        "Europe"
-      ],
+      "continent": ["Europe"],
       "startDate": "2016-07-29",
       "endDate": "2016-08-06",
       "totalDays": 9,
       "description": "For my first hiking adventure I thought it was a good idea to climb the highest mountain in Sweden Kebnekaise. The Coffee Valley was the worst part that I did not prepare for, but even so I still got to the top of the mountain where there was a snow storm going on and I could barely see my own hand infront of me.",
-      "images": [
-        "./images/kebnekaise_2016_1.JPG"
-      ],
-      "countries": [
-        "Sweden"
-      ]
+      "images": ["/images/kebnekaise_2016_1.jpg"],
+      "countries": ["Sweden"]
     },
     {
       "id": "Hiking_in_SriLanka_2016-12-19",
       "name": "Hiking in Sri Lanka",
-      "continent": [
-        "South Asia"
-      ],
+      "continent": ["South Asia"],
       "startDate": "2016-12-19",
       "endDate": "2017-01-04",
       "totalDays": 17,
-      "description": "On this European journey we will visit the traditional Highland Games, search for the Loch Ness monster, taste whisky at the smallest distillery Edradour in Scotland and visit the historic Edinburgh Castle. The journey will continue to Belfast, Ireland the country where you will experience beautiful scenery, live music, city life, beer and more whisky. Apart from Belfast we will also visit Galway and finish the trip in Dublin.",
-      "images": [
-        "./images/hiking_in_sri_lanka_2016_1.JPG"
-      ],
-      "countries": [
-        "Sri Lanka"
-      ]
+      "description": "Great adventure hiking in different places in Sri Lanka and up to Adams Peak on New Years Eve.",
+      "images": ["/images/hiking_in_sri_lanka_2016_1.JPG"],
+      "countries": ["Sri Lanka"]
     },
     {
       "id": "Trans-Siberian_Railway_2017-06-21",
       "name": "Trans-Siberian Railway",
-      "continent": [
-        "Central Asia",
-        "East & Southeast Asia"
-      ],
+      "continent": ["Central Asia", "East & Southeast Asia"],
       "startDate": "2017-06-21",
       "endDate": "2017-07-26",
       "totalDays": 36,
-      "description": "On this European journey we will visit the traditional Highland Games, search for the Loch Ness monster, taste whisky at the smallest distillery Edradour in Scotland and visit the historic Edinburgh Castle. The journey will continue to Belfast, Ireland the country where you will experience beautiful scenery, live music, city life, beer and more whisky. Apart from Belfast we will also visit Galway and finish the trip in Dublin.",
-      "images": [
-        "./images/trans-siberian_railway_2017_1.JPG"
-      ],
-      "countries": [
-        "Russia",
-        "China",
-        "Japan",
-        "Mongolia",
-        "South Korea"
-      ]
+      "description": "The first three weeks of this adventure I traveled with my best friend to Moscow, from there we took the Trans-Siberian Railway to Ulaanbaatarand and Beijing. Afterwards we continued the trip to South Korea, Japan and Taiwan. When my friend had to go back home I continued the adventure by myself back to China and volunteered with the giant pandas.",
+      "images": ["/images/trans-siberian_railway_2017_1.JPG"],
+      "countries": ["Russia", "China", "Japan", "Mongolia", "South Korea"]
     },
     {
       "id": "Backpacking_in_England_2017-07-28",
       "name": "Backpacking in England",
-      "continent": [
-        "Europe"
-      ],
+      "continent": ["Europe"],
       "startDate": "2017-07-28",
       "endDate": "2017-08-20",
       "totalDays": 24,
-      "description": "On this European journey we will visit the traditional Highland Games, search for the Loch Ness monster, taste whisky at the smallest distillery Edradour in Scotland and visit the historic Edinburgh Castle. The journey will continue to Belfast, Ireland the country where you will experience beautiful scenery, live music, city life, beer and more whisky. Apart from Belfast we will also visit Galway and finish the trip in Dublin.",
-      "images": [
-        "./images/backpacking_in_england_2017_1.JPG"
-      ],
-      "countries": [
-        "United Kingdom"
-      ]
+      "description": "After coming home from my trip in Asia, I was not ready to finish my adventures so when I got home I re-packed my bag and headed to England.",
+      "images": ["/images/backpacking_in_england_2017_1.jpg"],
+      "countries": ["United Kingdom"]
     },
     {
       "id": "Christmas_&_New_Year_in_Colombia_2017-12-20",
       "name": "Christmas & New Year in Colombia",
-      "continent": [
-        "South America"
-      ],
+      "continent": ["South America"],
       "startDate": "2017-12-20",
       "endDate": "2018-01-07",
       "totalDays": 19,
-      "description": "On this European journey we will visit the traditional Highland Games, search for the Loch Ness monster, taste whisky at the smallest distillery Edradour in Scotland and visit the historic Edinburgh Castle. The journey will continue to Belfast, Ireland the country where you will experience beautiful scenery, live music, city life, beer and more whisky. Apart from Belfast we will also visit Galway and finish the trip in Dublin.",
-      "images": [
-        "./images/christmas_&_new_year_in_colombia_2017_1.JPG"
-      ],
-      "countries": [
-        "Colombia"
-      ]
+      "description": "Amazing adventure traveling around in Colombia and seeing so many different places.",
+      "images": ["/images/christmas_&_new_year_in_colombia_2017_1.jpg"],
+      "countries": ["Colombia"]
     },
     {
       "id": "Adventure_around_Himalaya_2018",
       "name": "Adventure around Himalaya",
-      "continent": [
-        "South Asia"
-      ],
+      "continent": ["South Asia"],
       "startDate": "2018-10-04",
       "endDate": "2018-10-20",
       "totalDays": 17,
-      "description": "On this European journey we will visit the traditional Highland Games, search for the Loch Ness monster, taste whisky at the smallest distillery Edradour in Scotland and visit the historic Edinburgh Castle. The journey will continue to Belfast, Ireland the country where you will experience beautiful scenery, live music, city life, beer and more whisky. Apart from Belfast we will also visit Galway and finish the trip in Dublin.",
-      "images": [
-        "./images/adventure_around_himalaya_2018_1.JPG"
-      ],
-      "countries": [
-        "Nepal",
-        "Bhutan",
-        "India",
-        "Bangladesh"
-      ]
+      "description": "A fantastic adventure traveling through Nepal, Bhutan, India and Bangladesh.",
+      "images": ["/images/adventure_around_himalaya_2018_1.JPG"],
+      "countries": ["Nepal", "Bhutan", "India", "Bangladesh"]
     },
     {
       "id": "Hiking_in_Nepal_2018-11-07",
       "name": "Hiking in Nepal",
-      "continent": [
-        "South Asia"
-      ],
+      "continent": ["South Asia"],
       "startDate": "2018-11-07",
       "endDate": "2018-11-18",
       "totalDays": 12,
-      "description": "On this European journey we will visit the traditional Highland Games, search for the Loch Ness monster, taste whisky at the smallest distillery Edradour in Scotland and visit the historic Edinburgh Castle. The journey will continue to Belfast, Ireland the country where you will experience beautiful scenery, live music, city life, beer and more whisky. Apart from Belfast we will also visit Galway and finish the trip in Dublin.",
-      "images": [
-        "./images/hiking_in_nepal_2018_1.JPG"
-      ],
-      "countries": [
-        "Nepal"
-      ]
+      "description": "A one week hike on The Ghorepani Poon Hill Trek.",
+      "images": ["/images/hiking_in_nepal_2018_1.JPG"],
+      "countries": ["Nepal"]
     },
     {
       "id": "Sri_Lanka-Maldives_2018-12-27",
       "name": "Sri Lanka-Maldives",
-      "continent": [
-        "South Asia"
-      ],
+      "continent": ["South Asia"],
       "startDate": "2018-12-27",
       "endDate": "2019-01-12",
       "totalDays": 17,
-      "description": "On this European journey we will visit the traditional Highland Games, search for the Loch Ness monster, taste whisky at the smallest distillery Edradour in Scotland and visit the historic Edinburgh Castle. The journey will continue to Belfast, Ireland the country where you will experience beautiful scenery, live music, city life, beer and more whisky. Apart from Belfast we will also visit Galway and finish the trip in Dublin.",
-      "images": [
-        "./images/sri_lanka-maldives_2018_1.JPG"
-      ],
-      "countries": [
-        "Sri Lanka",
-        "Maldives"
-      ]
+      "description": "This was a trip around in Sri Lanka with a few days relaxing on an island in Maldives.",
+      "images": ["/images/sri_lanka-maldives_2018_1.jpg"],
+      "countries": ["Sri Lanka", "Maldives"]
     },
     {
       "id": "Malta_2019-04-27",
       "name": "Malta",
-      "continent": [
-        "Europe"
-      ],
+      "continent": ["Europe"],
       "startDate": "2019-04-27",
       "endDate": "2019-05-02",
       "totalDays": 6,
-      "description": "On this European journey we will visit the traditional Highland Games, search for the Loch Ness monster, taste whisky at the smallest distillery Edradour in Scotland and visit the historic Edinburgh Castle. The journey will continue to Belfast, Ireland the country where you will experience beautiful scenery, live music, city life, beer and more whisky. Apart from Belfast we will also visit Galway and finish the trip in Dublin.",
-      "images": [
-        "./images/malta_2019_1.JPG"
-      ],
-      "countries": [
-        "Malta"
-      ]
+      "description": "This was a trip I did with my sister and mother to celebrate her birthday.",
+      "images": ["/images/malta_2019_1.JPG"],
+      "countries": ["Malta"]
     },
     {
       "id": "Hiking_in_Norway_2019-06-28",
       "name": "Hiking in Norway",
-      "continent": [
-        "Europe"
-      ],
+      "continent": ["Europe"],
       "startDate": "2019-06-28",
       "endDate": "2019-07-07",
       "totalDays": 10,
-      "description": "On this European journey we will visit the traditional Highland Games, search for the Loch Ness monster, taste whisky at the smallest distillery Edradour in Scotland and visit the historic Edinburgh Castle. The journey will continue to Belfast, Ireland the country where you will experience beautiful scenery, live music, city life, beer and more whisky. Apart from Belfast we will also visit Galway and finish the trip in Dublin.",
-      "images": [
-        "./images/hiking_in_norway_2019_1.JPG"
-      ],
-      "countries": [
-        "Norway"
-      ]
+      "description": "Great short trip hiking to the Preikestolen and Kjeragbolten.",
+      "images": ["/images/hiking_in_norway_2019_1.JPG"],
+      "countries": ["Norway"]
     },
     {
-      "id": "Backpacking_in_South_East_Asia_2019-10-18",
-      "name": "Backpacking in South East Asia",
-      "continent": [
-        "East & Southeast Asia",
-        "Middle East"
-      ],
+      "id": "Backpacking_in_Southeast_Asia_2019-10-18",
+      "name": "Backpacking in Southeast Asia",
+      "continent": ["East & Southeast Asia", "Middle East"],
       "startDate": "2019-10-18",
       "endDate": "2019-11-10",
       "totalDays": 24,
-      "description": "On this European journey we will visit the traditional Highland Games, search for the Loch Ness monster, taste whisky at the smallest distillery Edradour in Scotland and visit the historic Edinburgh Castle. The journey will continue to Belfast, Ireland the country where you will experience beautiful scenery, live music, city life, beer and more whisky. Apart from Belfast we will also visit Galway and finish the trip in Dublin.",
-      "images": [
-        "./images/backpacking_in_south_east_asia_2019_1.JPG"
-      ],
-      "countries": [
-        "Indonesia",
-        "Philippines",
-        "Singapore",
-        "Qatar"
-      ]
+      "description": "An amazing adventure traveling by myself around in Southeast.",
+      "images": ["/images/backpacking_in_south_east_asia_2019_1.JPG"],
+      "countries": ["Indonesia", "Philippines", "Singapore", "Qatar"]
     },
     {
       "id": "Christmas_in_Israel_2019-12-22",
       "name": "Christmas in Israel",
-      "continent": [
-        "Middle East"
-      ],
+      "continent": ["Middle East"],
       "startDate": "2019-12-22",
       "endDate": "2019-12-29",
       "totalDays": 8,
-      "description": "On this European journey we will visit the traditional Highland Games, search for the Loch Ness monster, taste whisky at the smallest distillery Edradour in Scotland and visit the historic Edinburgh Castle. The journey will continue to Belfast, Ireland the country where you will experience beautiful scenery, live music, city life, beer and more whisky. Apart from Belfast we will also visit Galway and finish the trip in Dublin.",
-      "images": [
-        "./images/christmas_in_israel_2019_1.JPG"
-      ],
-      "countries": [
-        "Israel"
-      ]
+      "description": "This was a short trip I did with my mother to Tel Aviv, Israel where we during Christmas Eve visited Bethlehem.",
+      "images": ["/images/christmas_in_israel_2019_1.JPG"],
+      "countries": ["Israel"]
     },
     {
       "id": "Kenya-Eritrea_2020-01-18",
       "name": "Kenya-Eritrea",
-      "continent": [
-        "Africa"
-      ],
+      "continent": ["Africa"],
       "startDate": "2020-01-18",
       "endDate": "2020-02-18",
       "totalDays": 32,
-      "description": "On this European journey we will visit the traditional Highland Games, search for the Loch Ness monster, taste whisky at the smallest distillery Edradour in Scotland and visit the historic Edinburgh Castle. The journey will continue to Belfast, Ireland the country where you will experience beautiful scenery, live music, city life, beer and more whisky. Apart from Belfast we will also visit Galway and finish the trip in Dublin.",
-      "images": [
-        "./images/kenya-eritrea_2020_1.JPG",
-        "./images/kenya-eritrea_2020_2.JPG"
-      ],
-      "countries": [
-        "Kenya",
-        "Ethiopia",
-        "Djibouti",
-        "Eritrea"
-      ]
+      "description": "This was an amazing one month adventure traveling through Kenya, Ethiopia, Djibouti and Eritrea.",
+      "images": ["/images/kenya-eritrea_2020_1.JPG"],
+      "countries": ["Kenya", "Ethiopia", "Djibouti", "Eritrea"]
     },
     {
       "id": "Colour_festival_in_India_2020-03-1",
       "name": "Colour festival in India",
-      "continent": [
-        "Middle East",
-        "South Asia"
-      ],
+      "continent": ["Middle East", "South Asia"],
       "startDate": "2020-03-01",
       "endDate": "2020-03-19",
       "totalDays": 19,
       "description": "Traditional color festival in India!",
-      "images": [
-        "./images/colour_festival_in_india_2020_1.JPG"
-      ],
-      "countries": [
-        "United Arab Emirates",
-        "India"
-      ]
+      "images": ["/images/colour_festival_in_india_2020_1.jpg"],
+      "countries": ["United Arab Emirates", "India"]
     },
     {
       "id": "Road_trip_in_south_Sweden_2021-06-10",
       "name": "Road trip in south Sweden",
-      "continent": [
-        "Europe"
-      ],
+      "continent": ["Europe"],
       "startDate": "2021-06-10",
       "endDate": "2021-06-24",
       "totalDays": 15,
-      "description": "Road Trip!",
-      "images": [
-        "./images/road_trip_in_south_sweden_2021_1.JPG"
-      ],
-      "countries": [
-        "Sweden"
-      ]
+      "description": "Road Trip in south Sweden, starting point was Gothenburg traveling south along the west coast to the southern most point in Sweden and then continue on the east coast to Piteå.",
+      "images": ["/images/road_trip_in_south_sweden_2021_1.JPG"],
+      "countries": ["Sweden"]
     },
     {
       "id": "Saudi_Arabia_2021-11-13",
       "name": "Saudi Arabia",
-      "continent": [
-        "Middle East"
-      ],
+      "continent": ["Middle East"],
       "startDate": "2021-11-13",
       "endDate": "2021-11-28",
       "totalDays": 16,
       "description": "Adventure around different places in Saudi Arabia.",
-      "images": [
-        "./images/saudiarabia_2021_1.JPG"
-      ],
-      "countries": [
-        "Saudi Arabia"
-      ]
+      "images": ["/images/saudiarabia_2021_1.jpg"],
+      "countries": ["Saudi Arabia"]
     },
     {
       "id": "Sri_Lanka-Maldives_2021-12-26",
       "name": "Sri Lanka-Maldives",
-      "continent": [
-        "South Asia"
-      ],
+      "continent": ["South Asia"],
       "startDate": "2021-12-26",
       "endDate": "2022-01-12",
       "totalDays": 18,
-      "description": "On this European journey we will visit the traditional Highland Games, search for the Loch Ness monster, taste whisky at the smallest distillery Edradour in Scotland and visit the historic Edinburgh Castle. The journey will continue to Belfast, Ireland the country where you will experience beautiful scenery, live music, city life, beer and more whisky. Apart from Belfast we will also visit Galway and finish the trip in Dublin.",
-      "images": [
-        "./images/sri_lanka-maldives_2021_1.JPG"
-      ],
-      "countries": [
-        "Sri Lanka",
-        "Maldives"
-      ]
+      "description": "This was a trip around in Sri Lanka with a few days relaxing on an island in Maldives.",
+      "images": ["/images/sri_lanka-maldives_2021_1.jpg"],
+      "countries": ["Sri Lanka", "Maldives"]
     },
     {
       "id": "Panama-Mexico_2022-01-15",
       "name": "Panama-Mexico",
-      "continent": [
-        "North America"
-      ],
+      "continent": ["North America"],
       "startDate": "2022-01-15",
       "endDate": "2022-02-18",
       "totalDays": 35,
-      "description": "On this European journey we will visit the traditional Highland Games, search for the Loch Ness monster, taste whisky at the smallest distillery Edradour in Scotland and visit the historic Edinburgh Castle. The journey will continue to Belfast, Ireland the country where you will experience beautiful scenery, live music, city life, beer and more whisky. Apart from Belfast we will also visit Galway and finish the trip in Dublin.",
-      "images": [
-        "./images/panama-mexico_2022_1.JPG"
-      ],
+      "description": "This was an amazing one month adventure traveling from Panama to Mexico.",
+      "images": ["/images/panama-mexico_2022_1.jpg"],
       "countries": [
         "Panama",
         "Costa Rico",
@@ -1665,58 +1494,24 @@
     {
       "id": "Mountain_Gorillas_2022-06-25",
       "name": "Mountain Gorillas",
-      "continent": [
-        "Africa"
-      ],
+      "continent": ["Africa"],
       "startDate": "2022-06-25",
       "endDate": "2022-07-18",
       "totalDays": 24,
-      "description": "On this European journey we will visit the traditional Highland Games, search for the Loch Ness monster, taste whisky at the smallest distillery Edradour in Scotland and visit the historic Edinburgh Castle. The journey will continue to Belfast, Ireland the country where you will experience beautiful scenery, live music, city life, beer and more whisky. Apart from Belfast we will also visit Galway and finish the trip in Dublin.",
-      "images": [
-        "./images/mountain_gorillas_2022_1.JPG",
-        "./images/image.JPG",
-        "./images/image.JPG",
-        "./images/image.JPG"
-      ],
-      "countries": [
-        "Kenya",
-        "Rwanda",
-        "Uganda"
-      ]
+      "description": "An amazing adventure hiking in the jungle to see the fantastic Mountain Gorillas!",
+      "images": ["/images/mountain_gorillas_2022_1.jpg"],
+      "countries": ["Kenya", "Rwanda", "Uganda"]
     },
     {
       "id": "Safari_&_Zanzibar_2022-07-18",
       "name": "Safari & Zanzibar",
-      "continent": [
-        "Africa"
-      ],
+      "continent": ["Africa"],
       "startDate": "2022-07-18",
       "endDate": "2022-08-10",
       "totalDays": 24,
-      "description": "On this European journey we will visit the traditional Highland Games, search for the Loch Ness monster, taste whisky at the smallest distillery Edradour in Scotland and visit the historic Edinburgh Castle. The journey will continue to Belfast, Ireland the country where you will experience beautiful scenery, live music, city life, beer and more whisky. Apart from Belfast we will also visit Galway and finish the trip in Dublin.",
-      "images": [
-        "./images/safari_&_zanzibar_2022_1.JPG",
-        "./images/image.JPG",
-        "./images/image.JPG",
-        "./images/image.JPG"
-      ],
-      "countries": [
-        "Kenya",
-        "Tanzania"
-      ]
-    },
-    {
-      "id": "Europe_Road_Trip_2023-01-26",
-      "name": "Europe Road Trip",
-      "continent": [],
-      "startDate": "2023-01-26",
-      "endDate": "2023-02-04",
-      "totalDays": 10,
-      "description": "HEj",
-      "images": [
-        "https://t3.ftcdn.net/jpg/00/66/45/74/240_F_66457497_3r7AaY5OekNSpj4BIPHA7Bbw8X0S3bXx.jpg"
-      ],
-      "countries": []
+      "description": "A trip filled with a lot of different types of safari and relaxing time on Zanzibar.",
+      "images": ["/images/safari_&_zanzibar_2022_1.JPG"],
+      "countries": ["Kenya", "Tanzania"]
     }
   ]
 }

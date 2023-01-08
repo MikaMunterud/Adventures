@@ -205,7 +205,7 @@ export default function EditAdventure() {
       });
 
       if (response.ok) {
-        navigate(`Adventures/adventures/${adventure.id}`);
+        navigate(`/adventures/${adventure.id}`);
       } else {
         alert("Something went wrong, adventure has not been edited!");
       }

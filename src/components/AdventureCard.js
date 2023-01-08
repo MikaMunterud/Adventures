@@ -17,12 +17,12 @@ export default function AdventureCard({ adventure, startYear }) {
       </p>
       <img
         className="allAdventures__adventure__image"
-        src={adventure.images[0]}
+        src={`.${adventure.images[0]}`}
         alt={`Adventure ${adventure.name} ${startYear}`}
       ></img>
       <Link
         className="allAdventures__adventure__link"
-        to={`/Adventures/adventures/${adventure.id}`}
+        to={`/adventures/${adventure.id}`}
       >
         More details
         <IoAirplaneOutline className="airplane" />
