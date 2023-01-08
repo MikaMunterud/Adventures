@@ -109,7 +109,7 @@ export default function SingleAdventure() {
             <img
               className={`singleAdventure__images__image${index + 1}`}
               key={index}
-              src={image}
+              src={`${image}`}
               alt={`Adventure ${adventure.name} ${startYear}`}
             ></img>
           );
