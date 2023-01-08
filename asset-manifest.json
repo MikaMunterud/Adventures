@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/Adventures/static/css/main.4e03691f.css",
-    "main.js": "/Adventures/static/js/main.e7ddc3e4.js",
+    "main.css": "/Adventures/static/css/main.372825e7.css",
+    "main.js": "/Adventures/static/js/main.7038a4a6.js",
     "static/js/787.27a4c680.chunk.js": "/Adventures/static/js/787.27a4c680.chunk.js",
     "index.html": "/Adventures/index.html",
-    "main.4e03691f.css.map": "/Adventures/static/css/main.4e03691f.css.map",
-    "main.e7ddc3e4.js.map": "/Adventures/static/js/main.e7ddc3e4.js.map",
+    "main.372825e7.css.map": "/Adventures/static/css/main.372825e7.css.map",
+    "main.7038a4a6.js.map": "/Adventures/static/js/main.7038a4a6.js.map",
     "787.27a4c680.chunk.js.map": "/Adventures/static/js/787.27a4c680.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4e03691f.css",
-    "static/js/main.e7ddc3e4.js"
+    "static/css/main.372825e7.css",
+    "static/js/main.7038a4a6.js"
   ]
 }
