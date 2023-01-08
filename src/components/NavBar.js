@@ -75,13 +75,13 @@ export default function NavBar() {
       >
         <ul className="navBar__box__option">
           <li>
-            <Link to="/visited_countries">Countries</Link>
+            <Link to="/Adventures/visited_countries">Countries</Link>
           </li>
           <li>
-            <Link to="/adventures/all">All adventures</Link>
+            <Link to="/Adventures/all">All adventures</Link>
           </li>
           <li>
-            <Link to="/adventure/new">Add adventure</Link>
+            <Link to="/Adventures/new">Add adventure</Link>
           </li>
         </ul>
       </div>

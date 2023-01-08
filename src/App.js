@@ -15,11 +15,12 @@ function App() {
       </header>
       <Routes>
         <Route path="/" element={<HomePage />} />
-        <Route path="/visited_countries" element={<HomePage />} />
-        <Route path="/adventures/all" element={<AllAdventures />} />
-        <Route path="/adventures/:id" element={<SingleAdventure />} />
-        <Route path="/adventures/edit/:id" element={<EditAdventure />} />
-        <Route path="/adventure/new" element={<AddNewAdventure />} />
+        <Route path="/Adventures/" element={<HomePage />} />
+        <Route path="/Adventures/visited_countries" element={<HomePage />} />
+        <Route path="/Adventures/all" element={<AllAdventures />} />
+        <Route path="/Adventures/:id" element={<SingleAdventure />} />
+        <Route path="/Adventures/edit/:id" element={<EditAdventure />} />
+        <Route path="/Adventures/new" element={<AddNewAdventure />} />
         <Route
           path="./visited_countries/edit"
           element={<EditCountriesList />}
