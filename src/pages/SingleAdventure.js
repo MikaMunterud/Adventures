@@ -11,10 +11,26 @@ export default function SingleAdventure() {
   useEffect(
     function () {
       async function getAdventure() {
-        const response = await fetch(`http://localhost:3002/adventures/${id}`);
+        /* If this repo is locally used with JSON Server, this fetch should be
+         * used instead to make the changes work correctly.
+         * const response = await fetch(`http://localhost:3002/adventures/${id}`);
+         */
+        const response = await fetch(
+          `https://mikamunterud.github.io/data/adventures.json`
+        );
+
         if (response.ok) {
           const adventure = await response.json();
-          setAdventure(adventure);
+
+          /* This part is added to make it possible to show a single adventure without
+           * using JSON server.
+           * If this repo is used locally with JSON server replace the below with only
+           * setAdventure(adventure);
+           */
+          const singleAdventure = adventure.find(function (adventure) {
+            return adventure.id === id;
+          });
+          setAdventure(singleAdventure);
         } else {
           setAdventure(null);
         }
@@ -71,7 +87,7 @@ export default function SingleAdventure() {
       </div>
       <div className="singleAdventure__icon edit">
         <span className="imageButton__message" data-hover="Edit adventure">
-          <Link to={`/adventures/edit/${adventure.id}`}>
+          <Link to={`/Adventures/adventures/edit/${adventure.id}`}>
             <MdOutlineSettings className="imageButton" />
           </Link>
         </span>

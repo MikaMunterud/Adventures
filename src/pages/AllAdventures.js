@@ -1,7 +1,6 @@
 import { useState, useEffect } from "react";
-import { Link } from "react-router-dom";
-import { IoAirplaneOutline } from "react-icons/io5";
 import { ImFilter } from "react-icons/im";
+import AdventureCard from "../components/AdventureCard";
 
 import RadioButton from "../components/filter/RadioButton";
 import Selector from "../components/filter/Selector";
@@ -36,7 +35,15 @@ export default function AllAdventures() {
      * That array is then used to set the filter, min-value and max-value for all days.
      */
     async function getAdventures() {
-      const response = await fetch("http://localhost:3002/adventures");
+      /*
+       *  If this repo is locally used with JSON Server, this fetch should be
+       * used instead to make the changes work correctly.
+       * const response = await fetch("http://localhost:3002/adventures");
+       */
+
+      const response = await fetch(
+        "https://mikamunterud.github.io/data/adventures.json"
+      );
       if (response.ok) {
         const adventures = await response.json();
         setAdventures(adventures);
@@ -63,9 +70,15 @@ export default function AllAdventures() {
     /* this fetches the data that contains all continents/ countries and
      * creates a new array of only the names of the continents and adds them
      * into the variable 'continents'.
+     *
+     * If this repo is locally used with JSON Server, this fetch should be
+     * used instead to make the changes work correctly.
+     * const response = await fetch("http://localhost:3002/continents");
      */
     async function getContinents() {
-      const response = await fetch("http://localhost:3002/continents");
+      const response = await fetch(
+        "https://mikamunterud.github.io/data/continents.json"
+      );
       if (response.ok) {
         const continentsList = await response.json();
         const array = [];
@@ -113,6 +126,7 @@ export default function AllAdventures() {
       );
     }
   );
+
   let sortOnAdventures = [];
 
   // eslint-disable-next-line default-case
@@ -141,9 +155,10 @@ export default function AllAdventures() {
   } else {
     sortedAdventures = sortOnAdventures.reverse();
   }
+
   /*
   const message = document.querySelector(".errorMessage");
-  if (sortedAdventures.length === 0) {
+  if (filteredAdventuresByDays.length === 0) {
     message.style.visibility = "visible";
     message.style.opacity = "1";
   } else {
@@ -151,6 +166,7 @@ export default function AllAdventures() {
     message.style.opacity = "0";
   }
 */
+
   return (
     <>
       <h2>All Adventures</h2>
@@ -201,32 +217,11 @@ export default function AllAdventures() {
           );
 
           return (
-            <div className="allAdventures__adventure" key={index}>
-              <h3 className="allAdventures__adventure__heading">
-                {" "}
-                {`${adventure.name} ${startYear}`}
-              </h3>
-
-              <p className="allAdventures__adventure__dates">
-                {`${adventure.startDate} - ${adventure.endDate}`}
-              </p>
-              <p className="allAdventures__adventure__days">
-                <strong>Total days: </strong>
-                {adventure.totalDays}
-              </p>
-              <img
-                className="allAdventures__adventure__image"
-                src={adventure.images[0]}
-                alt={`Adventure ${adventure.name} ${startYear}`}
-              ></img>
-              <Link
-                className="allAdventures__adventure__link"
-                to={`/adventures/${adventure.id}`}
-              >
-                More details
-                <IoAirplaneOutline className="airplane" />
-              </Link>
-            </div>
+            <AdventureCard
+              key={index}
+              adventure={adventure}
+              startYear={startYear}
+            />
           );
         })}
       </section>

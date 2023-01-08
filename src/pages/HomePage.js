@@ -16,10 +16,12 @@ export default function HomePage() {
     async function getCountryList() {
       /* If this repo is locally used with JSON Server, this fetch should be
        * used instead to make the changes work correctly.
-       * const response = await fetch("https://mikamunterud.github.io/data/continents.json");
+       * const response = await fetch("http://localhost:3002/continents");
        */
+      const response = await fetch(
+        "https://mikamunterud.github.io/data/continents.json"
+      );
 
-      const response = await fetch("http://localhost:3002/continents");
       if (response.ok) {
         const countryList = await response.json();
 

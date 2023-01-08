@@ -1704,6 +1704,19 @@
         "Kenya",
         "Tanzania"
       ]
+    },
+    {
+      "id": "Europe_Road_Trip_2023-01-26",
+      "name": "Europe Road Trip",
+      "continent": [],
+      "startDate": "2023-01-26",
+      "endDate": "2023-02-04",
+      "totalDays": 10,
+      "description": "HEj",
+      "images": [
+        "https://t3.ftcdn.net/jpg/00/66/45/74/240_F_66457497_3r7AaY5OekNSpj4BIPHA7Bbw8X0S3bXx.jpg"
+      ],
+      "countries": []
     }
   ]
 }

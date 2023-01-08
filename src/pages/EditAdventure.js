@@ -40,10 +40,26 @@ export default function EditAdventure() {
   useEffect(
     function () {
       async function getAdventure() {
-        const response = await fetch(`http://localhost:3002/adventures/${id}`);
+        /* If this repo is locally used with JSON Server, this fetch should be
+         * used instead to make the changes work correctly.
+         * const response = await fetch(`http://localhost:3002/adventures/${id}`);
+         */
+        const response = await fetch(
+          `https://mikamunterud.github.io/data/adventures.json`
+        );
 
         if (response.ok) {
-          const adventure = await response.json();
+          const data = await response.json();
+
+          /* This part is added to make it possible to show a single adventure without
+           * using JSON server.
+           * If this repo is used locally with JSON server delete the below const adventure
+           * and replace the above with const adventure instead of data
+           */
+          const adventure = data.find(function (adventure) {
+            return adventure.id === id;
+          });
+
           setAdventure(adventure);
           setName(adventure.name);
           setNameLength(adventure.name.length);
@@ -189,7 +205,7 @@ export default function EditAdventure() {
       });
 
       if (response.ok) {
-        navigate(`/adventures/${adventure.id}`);
+        navigate(`Adventures/adventures/${adventure.id}`);
       } else {
         alert("Something went wrong, adventure has not been edited!");
       }
