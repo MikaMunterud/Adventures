@@ -1,16 +1,33 @@
 import { Link, useLocation } from "react-router-dom";
 import { SlMenu } from "react-icons/sl";
 import { SiInstagram } from "react-icons/si";
-// import { ImFilter } from "react-icons/im";
-// import RadioButton from "../components/filter/RadioButton";
-// import Selector from "../components/filter/Selector";
-// import Checks from "../components/filter/Checks";
-// import RangeDays from "../components/filter/RangeDays";
+import { ImFilter } from "react-icons/im";
+import RadioButton from "../components/filter/RadioButton";
+import Selector from "../components/filter/Selector";
+import Checks from "../components/filter/Checks";
+import RangeDays from "../components/filter/RangeDays";
 import "../sass/filterBar.scss";
 import "../sass/NavBar.scss";
 
-export default function NavBar() {
+export default function NavBar({
+  sortDirection,
+  setSortDirection,
+  sortField,
+  setSortField,
+  showContinent,
+  setShowContinent,
+  continents,
+  filterMinDays,
+  setFilterMinDays,
+  filterMaxDays,
+  setFilterMaxDays,
+}) {
   const location = useLocation().pathname;
+
+  if (location === "/Adventures/all") {
+    const filterButton = document.querySelector(".filterButton");
+    filterButton.style.display = "flex";
+  }
 
   function showMenuBar() {
     const menuBar = document.querySelector(".navBar__box");
@@ -24,15 +41,12 @@ export default function NavBar() {
     }
   }
 
-  if (location === "/Adventures/all") {
-  }
-
   function hideMenuBar() {
     const menuBar = document.querySelector(".navBar__box");
     menuBar.style.visibility = "hidden";
     menuBar.style.opacity = "0";
   }
-  /*
+
   function showFilterMenu(event) {
     const filterMenu = document.querySelector(".filterBar");
     const menuBar = document.querySelector(".navBar__box");
@@ -48,7 +62,7 @@ export default function NavBar() {
     menuBar.style.visibility = "hidden";
     menuBar.style.opacity = "0";
   }
-*/
+
   return (
     <nav className="navBar">
       <div className="navBar__head">
@@ -57,7 +71,17 @@ export default function NavBar() {
           onClick={showMenuBar}
           onMouseOver={showMenuBar}
         />
-
+        <div
+          className="filterButton"
+          onClick={function (event) {
+            showFilterMenu(event);
+          }}
+          onMouseOver={showFilterMenu}
+        >
+          <span className="imageButton__message" data-hover="Filter Adventures">
+            <ImFilter className="imageButton" />
+          </span>
+        </div>
         <h1>Mika's Adventures!</h1>
 
         <a
@@ -85,19 +109,6 @@ export default function NavBar() {
           </li>
         </ul>
       </div>
-
-      {/* <div
-        className="filterButton"
-        onClick={function (event) {
-          showFilterMenu(event);
-        }}
-        onMouseOver={showFilterMenu}
-      >
-        <span className="imageButton__message" data-hover="Filter Adventures">
-          <ImFilter className="imageButton" />
-        </span>
-      </div>
-
       <div
         className="filterBar"
         onMouseLeave={hideFilterBar}
@@ -123,7 +134,7 @@ export default function NavBar() {
           filterMaxDays={filterMaxDays}
           setFilterMaxDays={setFilterMaxDays}
         />
-      </div> */}
+      </div>
     </nav>
   );
 }

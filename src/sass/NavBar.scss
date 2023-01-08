@@ -1,9 +1,8 @@
 .navBar {
   position: sticky;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   top: 0px;
-  width: 100%;
   height: min-content;
   background-color: #fefefe9f;
   backdrop-filter: blur(8px);
@@ -12,6 +11,8 @@
     position: relative;
     display: flex;
     flex-direction: row;
+    flex-wrap: nowrap;
+    width: 100%;
     padding: 13px 20px;
     align-items: center;
     justify-content: space-between;
