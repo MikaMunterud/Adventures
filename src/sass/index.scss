@@ -15,9 +15,7 @@ body {
   font-family: "Baskerville (serif)";
   min-width: 650px;
   max-width: 1800px;
-  & #root {
-    width: 100%;
-  }
+  width: 100vw;
 
   & main {
     display: flex;
