@@ -168,7 +168,7 @@ export default function AllAdventures() {
 */
 
   return (
-    <>
+    <main>
       <h2>All Adventures</h2>
       <div
         className="filterButton"
@@ -226,6 +226,6 @@ export default function AllAdventures() {
         })}
       </section>
       <p className="errorMessage">No Adventures match your filter...</p>
-    </>
+    </main>
   );
 }

@@ -74,80 +74,89 @@ export default function SingleAdventure() {
   );
 
   return (
-    <section className="singleAdventure">
+    <main>
       <h2 className="singleAdventure__heading">
         {" "}
         {`${adventure.name} ${startYear}`}
       </h2>
+      <section className="singleAdventure">
+        <div className="singleAdventure__icons">
+          <div className="edit">
+            <span className="imageButton__message" data-hover="Edit adventure">
+              <Link to={`/Adventures/edit/${adventure.id}`}>
+                <MdOutlineSettings className="imageButton" />
+              </Link>
+            </span>
+          </div>
+          <div className="delete">
+            <span
+              className="imageButton__message"
+              data-hover="Delete adventure"
+            >
+              <MdDeleteOutline
+                className="imageButton"
+                onClick={deleteAdventure}
+              />
+            </span>
+          </div>
+        </div>
 
-      <div className="singleAdventure__icon delete">
-        <span className="imageButton__message" data-hover="Delete adventure">
-          <MdDeleteOutline className="imageButton" onClick={deleteAdventure} />
-        </span>
-      </div>
-      <div className="singleAdventure__icon edit">
-        <span className="imageButton__message" data-hover="Edit adventure">
-          <Link to={`/Adventures/edit/${adventure.id}`}>
-            <MdOutlineSettings className="imageButton" />
-          </Link>
-        </span>
-      </div>
-
-      <div className="singleAdventure__length">
-        <p className="singleAdventure__length__days">
-          <strong>Total days: </strong>
-          {adventure.totalDays}
-        </p>
-        <p className="singleAdventure__length__dates">
-          {`${adventure.startDate} - ${adventure.endDate}`}
-        </p>
-      </div>
-      <p className="singleAdventure__description">{adventure.description}</p>
-      <div className="singleAdventure__images">
-        {adventure.images.map(function (image, index) {
-          return (
-            <img
-              className={`singleAdventure__images__image${index + 1}`}
-              key={index}
-              src={`${image}`}
-              alt={`Adventure ${adventure.name} ${startYear}`}
-            ></img>
-          );
-        })}
-      </div>
-      <div className="singleAdventure__info">
-        <details className="singleAdventure__info__details">
-          <summary className="singleAdventure__info__details__heading">
-            Continent <IoAirplaneOutline className="airplane" />
-          </summary>
-          {adventure.continent.map(function (name, index) {
+        <div className="singleAdventure__length">
+          <p className="singleAdventure__length__days">
+            <strong>Total days: </strong>
+            {adventure.totalDays}
+          </p>
+          <p className="singleAdventure__length__dates">
+            {`${adventure.startDate} - ${adventure.endDate}`}
+          </p>
+        </div>
+        <p className="singleAdventure__description">{adventure.description}</p>
+        <div className="singleAdventure__images">
+          {adventure.images.map(function (image, index) {
             return (
-              <p
-                className="singleAdventure__info__details__content"
+              <img
+                className={`singleAdventure__images__image${index + 1}`}
                 key={index}
-              >
-                {name}
-              </p>
+                src={`${image}`}
+                alt={`Adventure ${adventure.name} ${startYear}`}
+              ></img>
             );
           })}
-        </details>
-        <details className="singleAdventure__info__details">
-          <summary className="singleAdventure__info__details__heading">
-            Countries <IoAirplaneOutline className="airplane" />
-          </summary>
+        </div>
+        <div className="singleAdventure__info">
+          <details className="singleAdventure__info__details">
+            <summary className="singleAdventure__info__details__heading">
+              Continent <IoAirplaneOutline className="airplane" />
+            </summary>
+            {adventure.continent.map(function (name, index) {
+              return (
+                <p
+                  className="singleAdventure__info__details__content"
+                  key={index}
+                >
+                  {name}
+                </p>
+              );
+            })}
+          </details>
+          <details className="singleAdventure__info__details">
+            <summary className="singleAdventure__info__details__heading">
+              Countries <IoAirplaneOutline className="airplane" />
+            </summary>
 
-          {adventure.countries.map(function (country, index) {
-            return (
-              <p
-                className="singleAdventure__info__details__content"
-                key={index}
-              >
-                {country}
-              </p>
-            );
-          })}
-        </details>
-      </div>
-    </section>
+            {adventure.countries.map(function (country, index) {
+              return (
+                <p
+                  className="singleAdventure__info__details__content"
+                  key={index}
+                >
+                  {country}
+                </p>
+              );
+            })}
+          </details>
+        </div>
+      </section>
+    </main>
   );
 }

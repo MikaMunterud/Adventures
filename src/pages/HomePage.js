@@ -128,16 +128,18 @@ export default function HomePage() {
   // );
 
   return (
-    <section className="WorldMap">
+    <main className="WorldMap">
       <h2>{`Countries visited ${countriesVisitedAmount}/${countriesAmount}`}</h2>
 
-      <button type="button" onClick={openContinentLists}>
-        {"Open all tabs"}
-      </button>
+      <div>
+        <button type="button" onClick={openContinentLists}>
+          {"Open all tabs"}
+        </button>
 
-      <button type="button" onClick={closeContinentLists}>
-        {"Close all tabs"}
-      </button>
+        <button type="button" onClick={closeContinentLists}>
+          {"Close all tabs"}
+        </button>
+      </div>
 
       <TotalCountriesList
         countryList={countryList}
@@ -145,6 +147,6 @@ export default function HomePage() {
         checkedCountry={checkedCountry}
         handleCheckChange={handleCheckChange}
       />
-    </section>
+    </main>
   );
 }

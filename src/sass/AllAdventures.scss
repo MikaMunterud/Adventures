@@ -1,7 +1,7 @@
 .errorMessage {
   font-size: 1.7em;
   font-weight: 600;
-  margin: 0 0 0 32px;
+  margin: 0;
   transition: opacity 1s ease-in-out;
   visibility: hidden;
   opacity: 0;
@@ -9,10 +9,10 @@
 
 .allAdventures {
   display: grid;
+  width: 100%;
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: auto;
   gap: 32px;
-  margin: 0px 32px;
   z-index: 1;
   &__adventure {
     display: flex;

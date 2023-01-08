@@ -84,7 +84,13 @@ export default function EditAdventure() {
 
   useEffect(function () {
     async function getContinentList() {
-      const response = await fetch("http://localhost:3002/continents");
+      /* If this repo is locally used with JSON Server, this fetch should be
+       * used instead to make the changes work correctly.
+       * const response = await fetch("http://localhost:3002/continents");
+       */
+      const response = await fetch(
+        "https://mikamunterud.github.io/data/continents.json"
+      );
       if (response.ok) {
         const continentList = await response.json();
         setContinentList(continentList);
@@ -96,7 +102,14 @@ export default function EditAdventure() {
 
   useEffect(function () {
     async function getAdventureList() {
-      const response = await fetch("http://localhost:3002/adventures");
+      /* If this repo is locally used with JSON Server, this fetch should be
+       * used instead to make the changes work correctly.
+       * const response = await fetch(`http://localhost:3002/adventures`);
+       */
+      const response = await fetch(
+        `https://mikamunterud.github.io/data/adventures.json`
+      );
+
       if (response.ok) {
         const adventureList = await response.json();
         setAdventureList(adventureList);
@@ -224,7 +237,7 @@ export default function EditAdventure() {
   }
 
   return (
-    <>
+    <main>
       <h2>{`Edit ${name} ${startYear}`}</h2>
       <form className="addAdventureForm" onSubmit={handleSubmit}>
         <div className="adventureName">
@@ -377,6 +390,6 @@ export default function EditAdventure() {
         </div>
         <button className="adventureFormSubmitButton">Edit adventure!</button>
       </form>
-    </>
+    </main>
   );
 }

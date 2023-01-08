@@ -1,39 +1,35 @@
 .singleAdventure {
-  position: relative;
   display: flex;
   flex-direction: column;
   border-radius: 15px;
-  margin: 32px;
   background-color: #fefefe80;
   backdrop-filter: blur(4px);
   padding: 0 32px;
-  & h2 {
-    align-self: center;
-    @media (max-width: 900px) {
-      max-width: 80%;
-    }
-    @media (max-width: 800px) {
-      max-width: 70%;
-    }
-  }
-  &__icon {
-    position: absolute;
-    display: flex;
 
-    &.delete {
-      top: 32px;
-      right: 32px;
+  &__icons {
+    display: flex;
+    padding: 20px 0;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 24px;
+    & .delete {
+      display: flex;
     }
-    &.edit {
-      top: 32px;
-      right: 86px;
+    & .edit {
+      display: flex;
+      align-self: center;
+
       & a {
         color: inherit;
+        display: flex;
+
+        height: min-content;
       }
     }
     & .imageButton {
       font-size: 1.7em;
       border-radius: 4px;
+      height: min-content;
       cursor: pointer;
 
       &__message {
@@ -43,7 +39,7 @@
           content: attr(data-hover);
           visibility: hidden;
           opacity: 0;
-          transition: opacity 1s ease-in-out;
+          transition: all 1s ease-in-out;
           background-color: #fefefec8;
           width: max-content;
           position: absolute;

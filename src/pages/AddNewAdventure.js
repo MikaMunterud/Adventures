@@ -182,7 +182,7 @@ export default function AddNewAdventure() {
   };
 
   return (
-    <>
+    <main>
       <h2>New adventure!</h2>
       <form className="addAdventureForm" onSubmit={handleSubmit}>
         <div className="adventureName">
@@ -332,6 +332,6 @@ export default function AddNewAdventure() {
           Add a new adventure!
         </button>
       </form>
-    </>
+    </main>
   );
 }
