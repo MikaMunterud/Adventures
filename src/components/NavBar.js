@@ -1,11 +1,11 @@
 import { Link, useLocation } from "react-router-dom";
 import { SlMenu } from "react-icons/sl";
 import { SiInstagram } from "react-icons/si";
-import { ImFilter } from "react-icons/im";
-import RadioButton from "../components/filter/RadioButton";
-import Selector from "../components/filter/Selector";
-import Checks from "../components/filter/Checks";
-import RangeDays from "../components/filter/RangeDays";
+// import { ImFilter } from "react-icons/im";
+// import RadioButton from "../components/filter/RadioButton";
+// import Selector from "../components/filter/Selector";
+// import Checks from "../components/filter/Checks";
+// import RangeDays from "../components/filter/RangeDays";
 import "../sass/filterBar.scss";
 import "../sass/NavBar.scss";
 
@@ -32,7 +32,7 @@ export default function NavBar() {
     menuBar.style.visibility = "hidden";
     menuBar.style.opacity = "0";
   }
-
+  /*
   function showFilterMenu(event) {
     const filterMenu = document.querySelector(".filterBar");
     const menuBar = document.querySelector(".navBar__box");
@@ -48,7 +48,7 @@ export default function NavBar() {
     menuBar.style.visibility = "hidden";
     menuBar.style.opacity = "0";
   }
-
+*/
   return (
     <nav className="navBar">
       <div className="navBar__head">
@@ -75,13 +75,13 @@ export default function NavBar() {
       >
         <ul className="navBar__box__option">
           <li>
-            <Link to="./visited_countries">Countries</Link>
+            <Link to="/visited_countries">Countries</Link>
           </li>
           <li>
-            <Link to="./adventures/all">All adventures</Link>
+            <Link to="/adventures/all">All adventures</Link>
           </li>
           <li>
-            <Link to="./adventure/new">Add adventure</Link>
+            <Link to="/adventure/new">Add adventure</Link>
           </li>
         </ul>
       </div>
