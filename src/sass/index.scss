@@ -11,21 +11,23 @@ body {
     no-repeat center center fixed;
   background-size: cover;
   margin: 0px auto;
-  background-color: #e6dcd5;
+  background-color: #fefefe;
   color: #7e5b57;
   font-family: "Baskerville (serif)";
   min-width: 650px;
+  width: 100vw;
   max-width: 1800px;
+
   & #root {
     display: flex;
-    width: 100vw;
     flex-direction: column;
-
+    width: 100%;
     & main {
       display: flex;
       flex-direction: column;
       width: calc(100% - 64px);
       padding: 0 32px 32px;
+      z-index: 1;
     }
   }
 }
