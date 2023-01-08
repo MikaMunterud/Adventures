@@ -18,13 +18,13 @@ export default function NavBar() {
 
     menuBar.style.visibility = "visible";
     menuBar.style.opacity = "1";
-    if (location === "/adventures") {
+    if (location === "/Adventures/all") {
       filterMenu.style.visibility = "hidden";
       filterMenu.style.opacity = "0";
     }
   }
 
-  if (location === "/adventures") {
+  if (location === "/Adventures/all") {
   }
 
   function hideMenuBar() {
