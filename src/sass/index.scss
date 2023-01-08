@@ -9,13 +9,15 @@ body {
   background: url("https://t3.ftcdn.net/jpg/04/19/58/38/240_F_419583824_yKiDJ2rzzIBiJjrVth5JE7ehYlxYUSkI.jpg")
     no-repeat center center fixed;
   background-size: cover;
-  height: 100vh;
   margin: 0px auto;
   background-color: #e6dcd5;
   color: #7e5b57;
   font-family: "Baskerville (serif)";
   min-width: 650px;
   max-width: 1800px;
+  & #root {
+    width: 100%;
+  }
 
   & main {
     display: flex;
