@@ -1,107 +1,103 @@
-header {
+.navBar {
   position: sticky;
-  display: block;
+  display: flex;
+  flex-direction: column;
   top: 0px;
   width: 100%;
+  height: min-content;
+  background-color: #fefefe9f;
+  backdrop-filter: blur(8px);
   z-index: 4;
-
-  .navBar {
+  &__head {
+    position: relative;
     display: flex;
-    flex-direction: column;
-
-    &__head {
-      position: relative;
+    flex-direction: row;
+    padding: 13px 20px;
+    align-items: center;
+    justify-content: space-between;
+    & .menuButton {
       display: flex;
-      flex-direction: row;
-      background-color: #fefefe9f;
-      backdrop-filter: blur(8px);
-      padding: 13px 20px;
-      align-items: center;
-      justify-content: space-between;
-      & .menuButton {
-        display: flex;
-        font-size: 2em;
-        border-radius: 8px;
-        font-weight: bold;
-        padding: 8px;
+      font-size: 2em;
+      border-radius: 8px;
+      font-weight: bold;
+      padding: 8px;
+      &:hover {
+        background-color: #fefefe9b;
+      }
+    }
+
+    & h1 {
+      margin: 0;
+      font-size: 2.5em;
+      text-align: center;
+    }
+    & .instagram {
+      display: flex;
+      border-bottom-left-radius: 25px;
+      padding: 0px;
+      text-decoration: none;
+      color: inherit;
+      &_icon {
+        border: 0;
+        border-radius: 12px;
+        font-size: 2.5em;
+        padding: 0;
         &:hover {
           background-color: #fefefe9b;
         }
       }
+    }
+  }
 
-      & h1 {
-        margin: 0;
-        font-size: 2.5em;
+  &__box {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    top: 74px;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    background-color: #fefefe9f;
+    backdrop-filter: blur(8px);
+    padding: 0px;
+    list-style-type: none;
+    transition: all 1s ease-in-out;
+    visibility: hidden;
+    opacity: 0;
+    width: fit-content;
+    gap: 16px;
+    border-bottom-right-radius: 25px;
+    z-index: 4;
+    // transform: translateY(74px);
+
+    &__option {
+      display: flex;
+      flex-direction: column;
+      flex-wrap: nowrap;
+      position: relative;
+      width: 100%;
+      margin: 0px;
+      padding: 0px;
+      list-style-type: none;
+      justify-content: flex-start;
+
+      & li {
+        border-bottom-right-radius: 25px;
         text-align: center;
-      }
-      & .instagram {
-        display: flex;
-        border-bottom-left-radius: 25px;
-        padding: 0px;
-        text-decoration: none;
-        color: inherit;
-        &_icon {
-          border: 0;
-          border-radius: 12px;
-          font-size: 2.5em;
-          padding: 0;
-          &:hover {
-            background-color: #fefefe9b;
-          }
+        align-items: center;
+        padding: 0px 32px;
+        &:hover {
+          background-color: #fefefe9b;
         }
       }
     }
-
-    &__box {
-      position: absolute;
+    & a {
       display: flex;
-      flex-direction: column;
-      // top: 74px;
-      left: 0;
-      display: flex;
-      flex-direction: column;
-      background-color: #fefefe9f;
-      backdrop-filter: blur(8px);
-      padding: 0px;
-      list-style-type: none;
-      transition: all 1s ease-in-out;
-      visibility: hidden;
-      opacity: 0;
-      width: fit-content;
-      gap: 16px;
-      border-bottom-right-radius: 25px;
-      z-index: 4;
-      transform: translateY(74px);
-
-      &__option {
-        display: flex;
-        flex-direction: column;
-        flex-wrap: nowrap;
-        position: relative;
-        width: 100%;
-        margin: 0px;
-        padding: 0px;
-        list-style-type: none;
-        justify-content: flex-start;
-
-        & li {
-          border-bottom-right-radius: 25px;
-          text-align: center;
-          align-items: center;
-          padding: 0px 32px;
-          &:hover {
-            background-color: #fefefe9b;
-          }
-        }
-      }
-      & a {
-        display: flex;
-        padding: 24px 0px;
-        color: #755552;
-        font-size: 1.6rem;
-        font-weight: bold;
-        text-decoration: none;
-      }
+      padding: 24px 0px;
+      color: #755552;
+      font-size: 1.6rem;
+      font-weight: bold;
+      text-decoration: none;
     }
   }
 }

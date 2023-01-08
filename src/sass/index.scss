@@ -1,6 +1,6 @@
 body {
   position: relative;
-  display: flex;
+  display: block;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
     "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
@@ -15,13 +15,12 @@ body {
   color: #7e5b57;
   font-family: "Baskerville (serif)";
   min-width: 650px;
-  width: 100vw;
   max-width: 1800px;
 
   & #root {
     display: flex;
     flex-direction: column;
-    width: 100%;
+    // width: 100%;
     & main {
       display: flex;
       flex-direction: column;

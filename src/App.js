@@ -10,9 +10,7 @@ import EditCountriesList from "./pages/EditCountriesList";
 function App() {
   return (
     <BrowserRouter>
-      <header>
-        <NavBar />
-      </header>
+      <NavBar />
       <Routes>
         <Route path="/" element={<HomePage />} />
         <Route path="/Adventures/" element={<HomePage />} />
