@@ -15,15 +15,20 @@ body {
   font-family: "Baskerville (serif)";
   min-width: 650px;
   max-width: 1800px;
-
+  @media (max-width: 700px) {
+    width: 100vw;
+    height: 100vh;
+  }
   & #root {
     display: flex;
     flex-direction: column;
-    // width: 100%;
+    width: 100%;
+
     & main {
-      display: block;
+      display: flex;
+      flex-direction: column;
       width: calc(100% - 64px);
-      padding: 0 32px 32px;
+      margin: 0 32px 32px;
       z-index: 1;
     }
   }
