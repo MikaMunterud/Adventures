@@ -1,6 +1,7 @@
 .addAdventureForm {
   display: flex;
   flex-direction: column;
+  width: calc(100% - 64px);
   border-radius: 15px;
   background-color: #fefefe80;
   backdrop-filter: blur(4px);
@@ -166,10 +167,14 @@
           gap: 8px;
           font-size: 1.3em;
           font-weight: 600;
+          list-style: none;
           cursor: pointer;
 
           &::marker {
             content: none;
+          }
+          &::-webkit-details-marker {
+            display: none;
           }
         }
         & .airplane {

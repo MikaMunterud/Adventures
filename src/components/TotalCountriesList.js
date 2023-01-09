@@ -8,7 +8,7 @@ export default function TotalCountriesList({
   handleCheckChange,
 }) {
   return (
-    <section className="TotalCountriesList">
+    <section className="totalCountriesList">
       {countryList.map(function (continent, index) {
         return (
           <details key={index} className="continentListContainer">

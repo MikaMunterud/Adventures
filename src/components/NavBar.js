@@ -1,3 +1,4 @@
+import { useState, useEffect } from "react";
 import { Link, useLocation } from "react-router-dom";
 import { SlMenu } from "react-icons/sl";
 import { SiInstagram } from "react-icons/si";
@@ -23,11 +24,17 @@ export default function NavBar({
   setFilterMaxDays,
 }) {
   const location = useLocation().pathname;
-
-  if (location === "/Adventures/all") {
-    const filterButton = document.querySelector(".filterButton");
-    filterButton.style.display = "flex";
-  }
+  const [visibleFilterButton, setVisibleFilterButton] = useState(false);
+  useEffect(function () {
+    function checkVisibleFilterBar() {
+      if (location === "/Adventures/all") {
+        setVisibleFilterButton(true);
+      } else {
+        setVisibleFilterButton(false);
+      }
+    }
+    checkVisibleFilterBar();
+  });
 
   function showMenuBar() {
     const menuBar = document.querySelector(".navBar__box");
@@ -71,17 +78,23 @@ export default function NavBar({
           onClick={showMenuBar}
           onMouseOver={showMenuBar}
         />
-        <div
-          className="filterButton"
-          onClick={function (event) {
-            showFilterMenu(event);
-          }}
-          onMouseOver={showFilterMenu}
-        >
-          <span className="imageButton__message" data-hover="Filter Adventures">
-            <ImFilter className="imageButton" />
-          </span>
-        </div>
+
+        {visibleFilterButton && (
+          <div
+            className="filterButton"
+            onClick={function (event) {
+              showFilterMenu(event);
+            }}
+            onMouseOver={showFilterMenu}
+          >
+            <span
+              className="imageButton__message"
+              data-hover="Filter Adventures"
+            >
+              <ImFilter className="imageButton" />
+            </span>
+          </div>
+        )}
         <h1>Mika's Adventures!</h1>
 
         <a

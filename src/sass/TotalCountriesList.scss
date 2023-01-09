@@ -1,65 +1,74 @@
-.continentListContainer {
+.totalCountriesList {
   display: flex;
+  flex-direction: column;
   width: 100%;
-  background-color: #f0ebe782;
-  backdrop-filter: blur(4px);
-  border-radius: 8px;
-  margin: 16px 0;
-  transition: all 1s ease-in-out;
-
-  &__continent {
+  gap: 16px;
+  margin-top: 16px;
+  & .continentListContainer {
     display: flex;
-    padding: 8px 16px;
-    align-items: center;
-    font-size: 1.3rem;
-    font-weight: 600;
+    background-color: #f0ebe782;
+    backdrop-filter: blur(4px);
+    border-radius: 8px;
+    margin: 0;
+    transition: all 1s ease-in-out;
 
-    cursor: pointer;
-    &::marker {
-      content: none;
+    &__continent {
+      display: flex;
+      padding: 8px 16px;
+      align-items: center;
+      font-size: 1.3rem;
+      font-weight: 600;
+      list-style: none;
+      cursor: pointer;
+      &::marker {
+        content: none;
+      }
+      &::-webkit-details-marker {
+        display: none;
+      }
+      &:hover > .airplane {
+        transform: translateX(4px);
+      }
+
+      & .airplane {
+        margin-left: 8px;
+        display: inline-flex;
+        transition: 0.3s;
+      }
     }
-    &:hover > .airplane {
-      transform: translateX(4px);
+
+    &[open] .airplane {
+      transform: rotate(90deg);
     }
 
-    & .airplane {
-      margin-left: 8px;
-      display: inline-flex;
-      transition: 0.3s;
-    }
-  }
-
-  &[open] .airplane {
-    transform: rotate(90deg);
-  }
-
-  &__table {
-    width: 100%;
-    padding: 0px 16px;
-
-    & thead {
+    &__table {
       width: 100%;
-      font-size: 1.2rem;
-      text-align: left;
-    }
-    & tbody {
-      width: 100%;
-      font-size: 1.1rem;
+      padding: 0px 16px;
 
-      & td {
-        padding: 6px 0px;
-        border-bottom: 1px solid #ddd6d2;
+      & thead {
+        width: 100%;
+        font-size: 1.2rem;
+        text-align: left;
       }
-    }
-    & tr {
-      & .col_1 {
-        width: calc(60%);
+      & tbody {
+        width: 100%;
+        font-size: 1.1rem;
+
+        & td {
+          padding: 6px 0px;
+          border-bottom: 1px solid #ddd6d2;
+        }
       }
-      & .col_2 {
-        text-align: center;
-      }
-      & .col_3 {
-        text-align: center;
+      & tr {
+        & .col_1 {
+          width: calc(60%);
+        }
+        & .col_2 {
+          text-align: center;
+        }
+        & .col_3 {
+          text-align: center;
+        }
       }
     }
   }

@@ -1,7 +1,6 @@
 .filterButton {
-  position: fixed;
-  display: none;
-  top: 16px;
+  position: absolute;
+  display: flex;
   left: 82px;
   z-index: 9;
   padding: 8px;
@@ -126,9 +125,13 @@
       &__heading {
         display: flex;
         align-items: center;
+        list-style: none;
         cursor: pointer;
         &::marker {
           content: none;
+        }
+        &::-webkit-details-marker {
+          display: none;
         }
         &:hover > .airplane {
           transform: translateX(4px);
