@@ -9,9 +9,14 @@ export default function RangeDays({
   const [maxValue, setMaxValue] = useState(100);
 
   useEffect(function () {
-    setMinValue(filterMinDays);
-    setMaxValue(filterMaxDays);
-  }, []);
+    function getMinMaxDays() {
+      if (minValue === 0 && maxValue === 100) {
+        setMinValue(filterMinDays);
+        setMaxValue(filterMaxDays);
+      }
+    }
+    getMinMaxDays();
+  });
 
   function handleFilterMin(event) {
     setFilterMinDays(event.target.value);
