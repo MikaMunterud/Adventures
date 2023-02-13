@@ -11,13 +11,28 @@ export default function SingleAdventure() {
   useEffect(
     function () {
       async function getAdventure() {
-        /* If this repo is locally used with JSON Server, this fetch should be
-         * used instead to make the changes work correctly.
-         * const response = await fetch(`http://localhost:3002/adventures/${id}`);
+        /* If this repo is locally used with JSON Server, this fetch should
+         * make the changes work correctly.
+         * const response = await fetch(`http://localhost:3030/adventures/${id}`);
          */
-        const response = await fetch(
-          `https://mikamunterud.github.io/data/adventures.json`
-        );
+        let response = null;
+        try {
+          response = await fetch(`http://localhost:3030/adventures/${id}`);
+        } catch (FetchError) {
+          console.log(
+            'JSON server is not active, clone this repository and run "npm run dev"'
+          );
+
+          try {
+            response = await fetch(
+              "https://mikamunterud.github.io/data/adventures.json"
+            );
+          } catch (FetchError) {
+            console.log(
+              "Could not fetch data, please check your internet connection."
+            );
+          }
+        }
 
         if (response.ok) {
           const adventure = await response.json();
@@ -27,10 +42,18 @@ export default function SingleAdventure() {
            * If this repo is used locally with JSON server replace the below with only
            * setAdventure(adventure);
            */
-          const singleAdventure = adventure.find(function (adventure) {
-            return adventure.id === id;
-          });
-          setAdventure(singleAdventure);
+
+          if (
+            response.url !==
+            "https://mikamunterud.github.io/data/adventures.json"
+          ) {
+            setAdventure(adventure);
+          } else {
+            const singleAdventure = adventure.find(function (adventure) {
+              return adventure.id === id;
+            });
+            setAdventure(singleAdventure);
+          }
         } else {
           setAdventure(null);
         }
@@ -47,11 +70,20 @@ export default function SingleAdventure() {
     );
 
     if (deleteMessage) {
-      const response = await fetch(`http://localhost:3002/adventures/${id}`, {
-        method: "DELETE",
-      });
+      let response = null;
+      try {
+        response = await fetch(`http://localhost:3030/adventures/${id}`, {
+          method: "DELETE",
+        });
+      } catch (FetchError) {
+        alert(
+          'JSON server is not active, clone this repository and run "npm run dev" if you want to be able to change the data content.'
+        );
+      }
+
       if (response.ok) {
-        navigate("/adventures");
+        // navigate("/Adventures/all");
+        window.location.href = "/Adventures/all";
       } else {
         alert(`Deletion of adventure ${adventure.name} could not be made`);
       }

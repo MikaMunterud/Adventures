@@ -42,23 +42,43 @@ export default function EditAdventure() {
       async function getAdventure() {
         /* If this repo is locally used with JSON Server, this fetch should be
          * used instead to make the changes work correctly.
-         * const response = await fetch(`http://localhost:3002/adventures/${id}`);
+         * const response = await fetch(`http://localhost:3030/adventures/${id}`);
          */
-        const response = await fetch(
-          `https://mikamunterud.github.io/data/adventures.json`
-        );
-
+        let response = null;
+        try {
+          response = await fetch(`http://localhost:3030/adventures/${id}`);
+        } catch (FetchError) {
+          console.log(
+            'JSON server is not active, clone this repository and run "npm run dev"'
+          );
+          try {
+            response = await fetch(
+              "https://mikamunterud.github.io/data/adventures.json"
+            );
+          } catch (FetchError) {
+            console.log(
+              "Could not fetch data, please check your internet connection."
+            );
+          }
+        }
+        /* This part is added to make it possible to show a single adventure without
+         * using JSON server.
+         * If this repo is used locally with JSON server the adventure can be edited.
+         * Otherwise it can only be shown in the editing mode.
+         */
         if (response.ok) {
-          const data = await response.json();
-
-          /* This part is added to make it possible to show a single adventure without
-           * using JSON server.
-           * If this repo is used locally with JSON server delete the below const adventure
-           * and replace the above with const adventure instead of data
-           */
-          const adventure = data.find(function (adventure) {
-            return adventure.id === id;
-          });
+          let adventure = null;
+          if (
+            response.url !==
+            "https://mikamunterud.github.io/data/adventures.json"
+          ) {
+            adventure = await response.json();
+          } else {
+            const data = await response.json();
+            adventure = data.find(function (adventure) {
+              return adventure.id === id;
+            });
+          }
 
           setAdventure(adventure);
           setName(adventure.name);
@@ -84,13 +104,28 @@ export default function EditAdventure() {
 
   useEffect(function () {
     async function getContinentList() {
-      /* If this repo is locally used with JSON Server, this fetch should be
-       * used instead to make the changes work correctly.
-       * const response = await fetch("http://localhost:3002/continents");
+      let response = null;
+      /* If this repo is locally used with JSON Server, this first fetch should
+       * make the changes work correctly.
+       * const response = await fetch("http://localhost:3030/continents");
        */
-      const response = await fetch(
-        "https://mikamunterud.github.io/data/continents.json"
-      );
+      try {
+        response = await fetch("http://localhost:3030/continents");
+      } catch (FetchError) {
+        console.log(
+          'JSON server is not active, clone this repository and run "npm run dev"'
+        );
+        try {
+          response = await fetch(
+            "https://mikamunterud.github.io/data/continents.json"
+          );
+        } catch (FetchError) {
+          console.log(
+            "Could not fetch data, please check your internet connection."
+          );
+        }
+      }
+
       if (response.ok) {
         const continentList = await response.json();
         setContinentList(continentList);
@@ -102,13 +137,27 @@ export default function EditAdventure() {
 
   useEffect(function () {
     async function getAdventureList() {
-      /* If this repo is locally used with JSON Server, this fetch should be
-       * used instead to make the changes work correctly.
-       * const response = await fetch(`http://localhost:3002/adventures`);
+      let response = null;
+      /* If this repo is locally used with JSON Server, this first fetch should
+       * make the changes work correctly.
+       * const response = await fetch("http://localhost:3030/adventures");
        */
-      const response = await fetch(
-        `https://mikamunterud.github.io/data/adventures.json`
-      );
+      try {
+        response = await fetch("http://localhost:3030/adventures");
+      } catch (FetchError) {
+        console.log(
+          'JSON server is not active, clone this repository and run "npm run dev"'
+        );
+        try {
+          response = await fetch(
+            "https://mikamunterud.github.io/data/adventures.json"
+          );
+        } catch (FetchError) {
+          console.log(
+            "Could not fetch data, please check your internet connection."
+          );
+        }
+      }
 
       if (response.ok) {
         const adventureList = await response.json();
@@ -207,15 +256,22 @@ export default function EditAdventure() {
         images: images,
         countries: countriesChecked,
       };
+      let response = null;
+      try {
+        response = await fetch(`http://localhost:3030/adventures/${id}`, {
+          method: "PATCH",
+          headers: {
+            "Content-Type": "application/json",
+          },
 
-      const response = await fetch(`http://localhost:3002/adventures/${id}`, {
-        method: "PATCH",
-        headers: {
-          "Content-Type": "application/json",
-        },
-
-        body: JSON.stringify(newAdventure),
-      });
+          body: JSON.stringify(newAdventure),
+        });
+      } catch {
+        alert(
+          'JSON server is not active, clone this repository and run "npm run dev" if you wish to edit the data.'
+        );
+        return;
+      }
 
       if (response.ok) {
         navigate(`/adventures/${adventure.id}`);

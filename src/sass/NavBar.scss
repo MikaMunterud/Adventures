@@ -13,12 +13,12 @@
     flex-direction: row;
     flex-wrap: nowrap;
     width: 100%;
-    padding: 13px 20px;
+    padding: 16px 20px;
     align-items: center;
     justify-content: space-between;
     & .menuButton {
       display: flex;
-      font-size: 2em;
+      font-size: 2.5em;
       border-radius: 8px;
       font-weight: bold;
       padding: 8px;
@@ -31,6 +31,9 @@
       margin: 0;
       font-size: 2.5em;
       text-align: center;
+      @media only screen and (max-width: 800px) {
+        font-size: 3em;
+      }
     }
     & .instagram {
       display: flex;
@@ -54,12 +57,12 @@
     position: absolute;
     display: flex;
     flex-direction: column;
-    top: 74px;
+    top: 88px;
     left: 0;
     display: flex;
     flex-direction: column;
-    background-color: #fefefe9f;
-    backdrop-filter: blur(8px);
+    background-color: #fefefe9b;
+    backdrop-filter: blur(20px);
     padding: 0px;
     list-style-type: none;
     transition: all 1s ease-in-out;
@@ -69,7 +72,6 @@
     gap: 16px;
     border-bottom-right-radius: 25px;
     z-index: 4;
-    // transform: translateY(74px);
 
     &__option {
       display: flex;

@@ -14,13 +14,27 @@ export default function HomePage() {
 
   useEffect(function () {
     async function getCountryList() {
-      /* If this repo is locally used with JSON Server, this fetch should be
-       * used instead to make the changes work correctly.
-       * const response = await fetch("http://localhost:3002/continents");
+      let response = null;
+      /* If this repo is locally used with JSON Server, this first fetch should
+       * make the changes work correctly.
+       * const response = await fetch("http://localhost:3030/continents");
        */
-      const response = await fetch(
-        "https://mikamunterud.github.io/data/continents.json"
-      );
+      try {
+        response = await fetch("http://localhost:3030/continents");
+      } catch (FetchError) {
+        console.log(
+          'JSON server is not active, clone this repository and run "npm run dev"'
+        );
+      }
+      try {
+        response = await fetch(
+          "https://mikamunterud.github.io/data/continents.json"
+        );
+      } catch (FetchError) {
+        console.log(
+          "Could not fetch data, please check your internet connection."
+        );
+      }
 
       if (response.ok) {
         const countryList = await response.json();

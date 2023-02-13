@@ -34,13 +34,28 @@ export default function AddNewAdventure() {
 
   useEffect(function () {
     async function getContinentList() {
-      /* If this repo is locally used with JSON Server, this fetch should be
-       * used instead to make the changes work correctly.
-       * const response = await fetch("http://localhost:3002/continents");
+      let response = null;
+      /* If this repo is locally used with JSON Server, this first fetch should
+       * make the changes work correctly.
+       * const response = await fetch("http://localhost:3030/continents");
        */
-      const response = await fetch(
-        "https://mikamunterud.github.io/data/continents.json"
-      );
+      try {
+        response = await fetch("http://localhost:3030/continents");
+      } catch (FetchError) {
+        console.log(
+          'JSON server is not active, clone this repository and run "npm run dev"'
+        );
+        try {
+          response = await fetch(
+            "https://mikamunterud.github.io/data/continents.json"
+          );
+        } catch (FetchError) {
+          console.log(
+            "Could not fetch data, please check your internet connection."
+          );
+        }
+      }
+
       if (response.ok) {
         const continentList = await response.json();
         setContinentList(continentList);
@@ -52,15 +67,28 @@ export default function AddNewAdventure() {
 
   useEffect(function () {
     async function getAdventureList() {
-      /*
-       *  If this repo is locally used with JSON Server, this fetch should be
-       * used instead to make the changes work correctly.
-       * const response = await fetch("http://localhost:3002/adventures");
+      let response = null;
+      /* If this repo is locally used with JSON Server, this first fetch should
+       * make the changes work correctly.
+       * const response = await fetch("http://localhost:3030/adventures");
        */
+      try {
+        response = await fetch("http://localhost:3030/adventures");
+      } catch (FetchError) {
+        console.log(
+          'JSON server is not active, clone this repository and run "npm run dev"'
+        );
+        try {
+          response = await fetch(
+            "https://mikamunterud.github.io/data/adventures.json"
+          );
+        } catch (FetchError) {
+          console.log(
+            "Could not fetch data, please check your internet connection."
+          );
+        }
+      }
 
-      const response = await fetch(
-        "https://mikamunterud.github.io/data/adventures.json"
-      );
       if (response.ok) {
         const adventureList = await response.json();
         setAdventureList(adventureList);
@@ -137,6 +165,11 @@ export default function AddNewAdventure() {
       return adventure.startDate === startDate;
     });
 
+    if (countriesChecked.length === 0) {
+      alert("You have to choose at least one country!");
+      return;
+    }
+
     if (!adventuresDates) {
       const replaceNameSpaces = name.trim().replace(/\s/g, "_");
       const newId = replaceNameSpaces + "_" + startDate;
@@ -158,19 +191,26 @@ export default function AddNewAdventure() {
         images: images,
         countries: countriesChecked,
       };
-      console.log(newAdventure);
 
-      const response = await fetch("http://localhost:3002/adventures", {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json",
-        },
+      let response = null;
+      try {
+        response = await fetch(`http://localhost:3030/adventures`, {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json",
+          },
 
-        body: JSON.stringify(newAdventure),
-      });
+          body: JSON.stringify(newAdventure),
+        });
+      } catch (FetchError) {
+        alert(
+          'JSON server is not active, clone this repository and run "npm run dev" if you want to be able to add new data content.'
+        );
+      }
 
       if (response.ok) {
-        navigate("/adventures/all");
+        // navigate("/Adventures/all");
+        window.location.href = "/Adventures/all";
       } else {
         alert("Something went wrong, adventure has not been added!");
       }

@@ -5,11 +5,15 @@
   border-radius: 15px;
   background-color: #fefefe80;
   backdrop-filter: blur(4px);
+  margin-bottom: 32px;
   padding: 24px 32px;
   gap: 16px;
   & label {
     font-size: 1.3em;
     font-weight: 600;
+    @media only screen and (max-width: 800px) {
+      font-size: 1.9em;
+    }
   }
 
   & input {
@@ -19,6 +23,10 @@
     border-radius: 6px;
     outline: 0;
     color: inherit;
+    font-size: 0.8em;
+    @media only screen and (max-width: 800px) {
+      font-size: 1.4em;
+    }
     &::placeholder {
       color: inherit;
     }
@@ -46,6 +54,9 @@
     & p {
       font-size: 0.9em;
       margin: 0;
+      @media only screen and (max-width: 800px) {
+        font-size: 1.5em;
+      }
     }
   }
 
@@ -77,6 +88,9 @@
       font-size: 0.9em;
       top: -8px;
       right: 0px;
+      @media only screen and (max-width: 800px) {
+        font-size: 1.5em;
+      }
     }
   }
 
@@ -100,7 +114,9 @@
           font-size: 1.2em;
           border-radius: 4px;
           cursor: pointer;
-
+          @media only screen and (max-width: 800px) {
+            font-size: 1.8em;
+          }
           &__message {
             position: relative;
             display: flex;
@@ -119,6 +135,9 @@
               left: 0;
               transform: translateX(-35%);
               bottom: 20px;
+              @media only screen and (max-width: 800px) {
+                font-size: 1.4em;
+              }
             }
             &:hover::before {
               opacity: 1;
@@ -155,9 +174,9 @@
     flex-direction: row;
     flex-wrap: wrap;
     gap: 8px;
-    // @media (max-width: 700px) {
-    //   flex-direction: column;
-    // }
+    @media (max-width: 700px) {
+      flex-direction: column;
+    }
     &__continent {
       width: calc(50% - 4px);
 
@@ -171,7 +190,9 @@
           font-weight: 600;
           list-style: none;
           cursor: pointer;
-
+          @media only screen and (max-width: 800px) {
+            font-size: 1.9em;
+          }
           &::marker {
             content: none;
           }
@@ -202,12 +223,19 @@
             flex-direction: row;
             align-items: flex-start;
             gap: 8px;
+
             & input {
               width: min-content;
+              @media only screen and (max-width: 800px) {
+                margin-top: 7px;
+              }
             }
             & label {
               font-size: 1.1em;
               cursor: pointer;
+              @media only screen and (max-width: 800px) {
+                font-size: 1.7em;
+              }
             }
           }
         }

@@ -4,6 +4,7 @@
   width: 100%;
   gap: 16px;
   margin-top: 16px;
+  margin-bottom: 32px;
   & .continentListContainer {
     display: flex;
     background-color: #f0ebe782;
@@ -14,12 +15,15 @@
 
     &__continent {
       display: flex;
-      padding: 8px 16px;
+      padding: 16px;
       align-items: center;
-      font-size: 1.3rem;
+      font-size: 1.4rem;
       font-weight: 600;
       list-style: none;
       cursor: pointer;
+      @media only screen and (max-width: 800px) {
+        font-size: 2em;
+      }
       &::marker {
         content: none;
       }
@@ -49,11 +53,16 @@
         width: 100%;
         font-size: 1.2rem;
         text-align: left;
+        @media only screen and (max-width: 800px) {
+          font-size: 1.8em;
+        }
       }
       & tbody {
         width: 100%;
         font-size: 1.1rem;
-
+        @media only screen and (max-width: 800px) {
+          font-size: 1.7em;
+        }
         & td {
           padding: 6px 0px;
           border-bottom: 1px solid #ddd6d2;

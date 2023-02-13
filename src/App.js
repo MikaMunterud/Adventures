@@ -34,15 +34,29 @@ function App() {
      * That array is then used to set the filter, min-value and max-value for all days.
      */
     async function getAdventures() {
-      /*
-       *  If this repo is locally used with JSON Server, this fetch should be
-       * used instead to make the changes work correctly.
-       * const response = await fetch("http://localhost:3002/adventures");
+      let response = null;
+      /* If this repo is locally used with JSON Server, this first fetch should
+       * make the changes work correctly.
+       * const response = await fetch("http://localhost:3030/adventures");
        */
+      try {
+        response = await fetch("http://localhost:3030/adventures");
+      } catch (FetchError) {
+        console.log(
+          'JSON server is not active, clone this repository and run "npm run dev"'
+        );
 
-      const response = await fetch(
-        "https://mikamunterud.github.io/data/adventures.json"
-      );
+        try {
+          response = await fetch(
+            "https://mikamunterud.github.io/data/adventures.json"
+          );
+        } catch (FetchError) {
+          console.log(
+            "Could not fetch data, please check your internet connection."
+          );
+        }
+      }
+
       if (response.ok) {
         const adventures = await response.json();
         setAdventures(adventures);
@@ -70,14 +84,28 @@ function App() {
      * creates a new array of only the names of the continents and adds them
      * into the variable 'continents'.
      *
-     * If this repo is locally used with JSON Server, this fetch should be
-     * used instead to make the changes work correctly.
-     * const response = await fetch("http://localhost:3002/continents");
+     * If this repo is locally used with JSON Server, this fetch should
+     * make the changes work correctly.
+     * const response = await fetch("http://localhost:3030/continents");
      */
     async function getContinents() {
-      const response = await fetch(
-        "https://mikamunterud.github.io/data/continents.json"
-      );
+      let response = null;
+      try {
+        response = await fetch("http://localhost:3030/continents");
+      } catch (FetchError) {
+        console.log(
+          'JSON server is not active, clone this repository and run "npm run dev"'
+        );
+        try {
+          response = await fetch(
+            "https://mikamunterud.github.io/data/continents.json"
+          );
+        } catch (FetchError) {
+          console.log(
+            "Could not fetch data, please check your internet connection."
+          );
+        }
+      }
       if (response.ok) {
         const continentsList = await response.json();
         const array = [];
