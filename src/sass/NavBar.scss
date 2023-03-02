@@ -1,11 +1,12 @@
 .navBar {
-  position: sticky;
+  position: fixed;
+  top: 0px;
   display: flex;
   flex-direction: row;
-  top: 0px;
+  width: 100%;
   height: min-content;
   background-color: #fefefe9f;
-  backdrop-filter: blur(8px);
+  backdrop-filter: blur(24px);
   z-index: 4;
   &__head {
     position: relative;
@@ -18,10 +19,14 @@
     justify-content: space-between;
     & .menuButton {
       display: flex;
-      font-size: 2.5em;
+      font-size: 3em;
       border-radius: 8px;
       font-weight: bold;
       padding: 8px;
+      cursor: pointer;
+      @media only screen and (max-width: 800px) {
+        align-self: flex-start;
+      }
       &:hover {
         background-color: #fefefe9b;
       }
@@ -31,9 +36,6 @@
       margin: 0;
       font-size: 2.5em;
       text-align: center;
-      @media only screen and (max-width: 800px) {
-        font-size: 3em;
-      }
     }
     & .instagram {
       display: flex;
@@ -57,12 +59,13 @@
     position: absolute;
     display: flex;
     flex-direction: column;
-    top: 88px;
+    bottom: 0;
+    transform: translateY(100%);
     left: 0;
     display: flex;
     flex-direction: column;
     background-color: #fefefe9b;
-    backdrop-filter: blur(20px);
+    backdrop-filter: blur(24px);
     padding: 0px;
     list-style-type: none;
     transition: all 1s ease-in-out;
@@ -72,6 +75,10 @@
     gap: 16px;
     border-bottom-right-radius: 25px;
     z-index: 4;
+    @media only screen and (max-width: 800px) {
+      width: 100%;
+      border-radius: 0;
+    }
 
     &__option {
       display: flex;
@@ -85,10 +92,16 @@
       justify-content: flex-start;
 
       & li {
+        display: flex;
         border-bottom-right-radius: 25px;
+        width: 100%;
         text-align: center;
         align-items: center;
         padding: 0px 32px;
+        @media only screen and (max-width: 800px) {
+          justify-content: center;
+        }
+        cursor: pointer;
         &:hover {
           background-color: #fefefe9b;
         }

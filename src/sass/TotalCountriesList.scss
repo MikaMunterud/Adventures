@@ -8,7 +8,7 @@
   & .continentListContainer {
     display: flex;
     background-color: #f0ebe782;
-    backdrop-filter: blur(4px);
+    backdrop-filter: blur(24px);
     border-radius: 8px;
     margin: 0;
     transition: all 1s ease-in-out;
@@ -21,9 +21,7 @@
       font-weight: 600;
       list-style: none;
       cursor: pointer;
-      @media only screen and (max-width: 800px) {
-        font-size: 2em;
-      }
+
       &::marker {
         content: none;
       }
@@ -53,16 +51,11 @@
         width: 100%;
         font-size: 1.2rem;
         text-align: left;
-        @media only screen and (max-width: 800px) {
-          font-size: 1.8em;
-        }
       }
       & tbody {
         width: 100%;
         font-size: 1.1rem;
-        @media only screen and (max-width: 800px) {
-          font-size: 1.7em;
-        }
+
         & td {
           padding: 6px 0px;
           border-bottom: 1px solid #ddd6d2;

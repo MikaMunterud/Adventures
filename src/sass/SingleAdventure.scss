@@ -1,10 +1,10 @@
 .singleAdventure {
   display: flex;
   flex-direction: column;
-  width: calc(100% - 64px);
+  width: 100%;
   border-radius: 15px;
   background-color: #fefefe80;
-  backdrop-filter: blur(4px);
+  backdrop-filter: blur(24px);
   margin-bottom: 32px;
   padding: 20px 32px;
 
@@ -32,9 +32,7 @@
       border-radius: 4px;
       height: min-content;
       cursor: pointer;
-      @media only screen and (max-width: 800px) {
-        font-size: 2.3em;
-      }
+
       &__message {
         position: relative;
         display: flex;
@@ -54,9 +52,6 @@
           left: 0;
           transform: translate(-38%, -50%);
           bottom: 20px;
-          @media only screen and (max-width: 800px) {
-            font-size: 1.5em;
-          }
         }
         &:hover::before {
           opacity: 1;
@@ -71,12 +66,12 @@
     flex-direction: row;
     justify-content: space-between;
     padding-top: 20px;
+    @media only screen and (max-width: 800px) {
+      flex-direction: column;
+    }
     & p {
       margin-top: 0;
       font-size: 1em;
-      @media only screen and (max-width: 800px) {
-        font-size: 1.6em;
-      }
     }
   }
 
@@ -84,9 +79,6 @@
     margin-top: 0;
     text-align: justify;
     font-size: 1em;
-    @media only screen and (max-width: 800px) {
-      font-size: 1.6em;
-    }
   }
 
   &__images {
@@ -125,9 +117,7 @@
         align-items: center;
         list-style: none;
         cursor: pointer;
-        @media only screen and (max-width: 800px) {
-          font-size: 1.8em;
-        }
+
         &::marker {
           content: none;
         }
@@ -152,9 +142,6 @@
         margin: 8px 0;
         font-weight: 500;
         font-size: 1em;
-        @media only screen and (max-width: 800px) {
-          font-size: 1.6em;
-        }
       }
     }
   }

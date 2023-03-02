@@ -1,34 +1,58 @@
-html {
+* {
   font-family: "Baskerville (serif)";
+  box-sizing: border-box;
+}
+
+html {
+  height: -webkit-fill-available;
+  min-width: fit-content;
+  height: 100vh;
+  min-height: 100vh;
+  background-color: #fefefe;
+  background-image: url("https://t3.ftcdn.net/jpg/04/19/58/38/240_F_419583824_yKiDJ2rzzIBiJjrVth5JE7ehYlxYUSkI.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
 }
 
 body {
   position: relative;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  display: flex;
   height: 100vh;
-  min-width: 650px;
+  width: 100%;
+  min-width: 100%;
   max-width: 1800px;
   margin: 0px auto;
-  background-color: #fefefe;
   color: #7e5b57;
-  background-image: url("https://t3.ftcdn.net/jpg/04/19/58/38/240_F_419583824_yKiDJ2rzzIBiJjrVth5JE7ehYlxYUSkI.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  background-attachment: fixed;
   overflow-x: hidden;
-  width: 100vw;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 
   & main {
+    position: relative;
+    top: 44px;
     display: flex;
     flex-direction: column;
     width: calc(100% - 64px);
-    margin: 0 32px 32px;
+    margin: 32px;
     z-index: 1;
+    @media only screen and (max-width: 700px) {
+      top: 96px;
+      padding-bottom: 96px;
+    }
   }
 }
 
+#root {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;

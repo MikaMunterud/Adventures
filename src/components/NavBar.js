@@ -36,12 +36,18 @@ export default function NavBar({
     checkVisibleFilterBar();
   });
 
-  function showMenuBar() {
+  function showMenuBar(event) {
+    console.log(event.target.value);
     const menuBar = document.querySelector(".navBar__box");
     const filterMenu = document.querySelector(".filterBar");
 
-    menuBar.style.visibility = "visible";
-    menuBar.style.opacity = "1";
+    if (menuBar.style.visibility === "visible") {
+      hideMenuBar();
+    } else {
+      menuBar.style.visibility = "visible";
+      menuBar.style.opacity = "1";
+    }
+
     if (location === "/Adventures/all") {
       filterMenu.style.visibility = "hidden";
       filterMenu.style.opacity = "0";
@@ -54,14 +60,18 @@ export default function NavBar({
     menuBar.style.opacity = "0";
   }
 
-  function showFilterMenu(event) {
+  function showFilterMenu() {
     const filterMenu = document.querySelector(".filterBar");
     const menuBar = document.querySelector(".navBar__box");
 
-    filterMenu.style.visibility = "visible";
-    filterMenu.style.opacity = "1";
-    menuBar.style.visibility = "hidden";
-    menuBar.style.opacity = "0";
+    if (filterMenu.style.visibility === "visible") {
+      hideFilterBar();
+    } else {
+      filterMenu.style.visibility = "visible";
+      filterMenu.style.opacity = "1";
+      menuBar.style.visibility = "hidden";
+      menuBar.style.opacity = "0";
+    }
   }
 
   function hideFilterBar() {
@@ -75,8 +85,10 @@ export default function NavBar({
       <div className="navBar__head">
         <SlMenu
           className="menuButton"
-          onClick={showMenuBar}
-          onMouseOver={showMenuBar}
+          onClick={function (event) {
+            event.preventDefault();
+            showMenuBar(event);
+          }}
         />
 
         {visibleFilterButton && (
@@ -85,7 +97,6 @@ export default function NavBar({
             onClick={function (event) {
               showFilterMenu(event);
             }}
-            onMouseOver={showFilterMenu}
           >
             <span
               className="imageButton__message"
@@ -105,28 +116,20 @@ export default function NavBar({
           <SiInstagram className="instagram_icon" />
         </a>
       </div>
-      <div
-        className="navBar__box"
-        onMouseLeave={hideMenuBar}
-        onMouseOver={showMenuBar}
-      >
+      <div className="navBar__box" onMouseLeave={hideMenuBar}>
         <ul className="navBar__box__option">
-          <li>
+          <li onClick={hideMenuBar}>
             <Link to="/Adventures/visited_countries">Countries</Link>
           </li>
-          <li>
+          <li onClick={hideMenuBar}>
             <Link to="/Adventures/all">All adventures</Link>
           </li>
-          <li>
+          <li onClick={hideMenuBar}>
             <Link to="/Adventures/new">Add adventure</Link>
           </li>
         </ul>
       </div>
-      <div
-        className="filterBar"
-        onMouseLeave={hideFilterBar}
-        onMouseOver={showFilterMenu}
-      >
+      <div className="filterBar" onMouseLeave={hideFilterBar}>
         <h3 className="filterBar_heading">Filter adventures</h3>
         <RadioButton
           sortDirection={sortDirection}

@@ -1,19 +1,16 @@
 .addAdventureForm {
   display: flex;
   flex-direction: column;
-  width: calc(100% - 64px);
+  width: 100%;
   border-radius: 15px;
   background-color: #fefefe80;
-  backdrop-filter: blur(4px);
+  backdrop-filter: blur(24px);
   margin-bottom: 32px;
   padding: 24px 32px;
   gap: 16px;
   & label {
     font-size: 1.3em;
     font-weight: 600;
-    @media only screen and (max-width: 800px) {
-      font-size: 1.9em;
-    }
   }
 
   & input {
@@ -24,9 +21,7 @@
     outline: 0;
     color: inherit;
     font-size: 0.8em;
-    @media only screen and (max-width: 800px) {
-      font-size: 1.4em;
-    }
+
     &::placeholder {
       color: inherit;
     }
@@ -41,6 +36,9 @@
     line-height: 1.5em;
     color: inherit;
     resize: none;
+    &::placeholder {
+      color: inherit;
+    }
   }
   & .adventureName {
     display: flex;
@@ -54,9 +52,6 @@
     & p {
       font-size: 0.9em;
       margin: 0;
-      @media only screen and (max-width: 800px) {
-        font-size: 1.5em;
-      }
     }
   }
 
@@ -88,9 +83,6 @@
       font-size: 0.9em;
       top: -8px;
       right: 0px;
-      @media only screen and (max-width: 800px) {
-        font-size: 1.5em;
-      }
     }
   }
 
@@ -114,9 +106,6 @@
           font-size: 1.2em;
           border-radius: 4px;
           cursor: pointer;
-          @media only screen and (max-width: 800px) {
-            font-size: 1.8em;
-          }
           &__message {
             position: relative;
             display: flex;
@@ -135,9 +124,6 @@
               left: 0;
               transform: translateX(-35%);
               bottom: 20px;
-              @media only screen and (max-width: 800px) {
-                font-size: 1.4em;
-              }
             }
             &:hover::before {
               opacity: 1;
@@ -153,11 +139,11 @@
       grid-template-columns: repeat(2, 1fr);
       gap: 8px;
 
-      @media (max-width: 700px) {
+      @media only screen and (max-width: 700px) {
         grid-template-columns: 1fr;
       }
       &__image {
-        width: calc(100% - 16px);
+        width: 100%;
       }
     }
 
@@ -179,6 +165,9 @@
     }
     &__continent {
       width: calc(50% - 4px);
+      @media (max-width: 700px) {
+        width: 100%;
+      }
 
       & details {
         & .continentSummary {
@@ -190,9 +179,7 @@
           font-weight: 600;
           list-style: none;
           cursor: pointer;
-          @media only screen and (max-width: 800px) {
-            font-size: 1.9em;
-          }
+
           &::marker {
             content: none;
           }
@@ -233,9 +220,6 @@
             & label {
               font-size: 1.1em;
               cursor: pointer;
-              @media only screen and (max-width: 800px) {
-                font-size: 1.7em;
-              }
             }
           }
         }

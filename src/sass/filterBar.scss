@@ -3,12 +3,15 @@
   display: flex;
   left: 82px;
   z-index: 9;
-  padding: 12px;
+  padding: 8px;
   border-radius: 10px;
   transition: all 1s ease-in-out;
-
+  @media only screen and (max-width: 800px) {
+    left: 18px;
+    bottom: 16px;
+  }
   & .imageButton {
-    font-size: 2em;
+    font-size: 1.8em;
     border-radius: 4px;
     cursor: pointer;
 
@@ -51,10 +54,11 @@
   flex-direction: column;
   justify-content: space-around;
   background-color: #fefefe9f;
-  backdrop-filter: blur(8px);
-  top: 88px;
+  backdrop-filter: blur(24px);
+  bottom: 0;
+  transform: translateY(100%);
   padding: 0px 24px 24px;
-  z-index: 4;
+  z-index: 10;
   transition: all 1s ease-in-out;
   visibility: hidden;
   opacity: 0;
@@ -62,6 +66,11 @@
   height: fit-content;
   gap: 16px;
   border-bottom-right-radius: 25px;
+  @media only screen and (max-width: 800px) {
+    width: 100%;
+    border-radius: 0;
+  }
+
   &_heading {
     font-size: 1.4em;
     margin-bottom: 0px;
