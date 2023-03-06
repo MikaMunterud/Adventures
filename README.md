@@ -1,6 +1,6 @@
 # **Adventures**
 
-[Visit this project live](https://mikamunterud.github.io/Adventures/)
+[Visit this project live](https://adventures-mikamunterud.vercel.app/)
 
 This project is my final assignment in the course FrontEnd 3 JavaScript-libraries and frameworks.
 
